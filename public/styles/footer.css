@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #d7e3fc;
+    bottom: 0px;
+    left: 0px;
+    height: 2em;
+}
+
+.footer__a{
+    color: black;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    border-left: 3px solid #d7e3fc;
+    border-right: 3px solid #d7e3fc
+
+}
+
+.footer__a:hover{
+    border-left: 3px solid #FBFBFD;
+    border-right: 3px solid #FBFBFD;
+}

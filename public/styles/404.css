@@ -1,0 +1,22 @@
+@media screen and (min-width:1024px) {
+.background{
+	width: 80%;
+  	height: auto;
+  margin-left: 10em;
+  position: absolute;
+  z-index: -1;
+  margin-top: -10em;
+}
+}
+body{
+  background-color: white;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width:1024px) {
+.background{
+  	height: auto;
+  width: 100%;
+  padding-top: 10em;
+}
+}

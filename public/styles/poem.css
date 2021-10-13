@@ -1,0 +1,191 @@
+@media only screen and (min-width:1024px){
+    :root {
+        --container:700px;
+    }
+    .MasterContener {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerPoème-margin {
+        padding: 30px;
+        height: auto;
+        width: 50%;
+        margin: 2em;
+        font-family: 'cinzel';
+        border-radius: 1.5rem;
+        box-shadow: 10px 25px 35px 10px rgba(0,0,0,0.45);
+        overflow-y: auto;
+    }
+    .Botton {
+        display: flex;
+        flex-direction: row;
+        background-color:#d7e3fc ;
+    }
+    .containerCommentaire-margin {
+        box-sizing: border-box;
+        width: 54%;
+        margin: 2em;
+        padding: 30px;
+        border-radius: 1.5rem;
+        box-shadow: 10px 25px 35px 10px rgba(0, 72, 255, 0.275);
+        margin-bottom: 4em;
+    }
+    .container {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        padding-right: calc(50% - var(--container)/2);
+        padding-left: calc(50% - var(--container)/2);
+    }
+    textarea {
+        width: 100%;
+    }
+    .envoyer {
+        padding: 8px 15px 8px 15px;
+        margin-top: 10px;
+        background: #d7e3fc;
+        border: none;
+        color: rgba(0, 0, 0, 0.959);
+    }
+    .comment{
+        height: 5em;
+        margin: 2em;
+        margin-bottom: 3em;
+        border-radius: 0.5rem;
+        width: 30em;
+        text-align: center;
+        padding-top: 1em;
+        box-shadow: 10px 25px 35px 10px rgba(0, 72, 255, 0.275);
+    }
+    #comments{
+        margin: 2.5%;
+        width: 40%;
+        position: absolute;
+        height: 85%;
+        left: 57%;
+        top: 6%;
+        overflow-y: auto;
+    } 
+    #messageComment{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    #nomUtilisateur{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        font-family: 'cinzel';
+    }
+    p#poem {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:640px) {
+    .black {
+        display: flex;
+        flex-direction: column;
+    }
+    .MasterContener {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerPoème-margin {
+        background-color: #FBFBFD;
+        border-radius: 1rem;
+        box-shadow: 10px 20px 30px 5px rgba(0,0,0,0.45);
+        display: flex;
+        flex-direction: column;  
+        margin-top: 2em;
+        padding: 20px;
+        font-family: 'cinzel';
+        height: auto;
+    }
+    .Botton {
+        display: flex;
+        flex-direction: row;
+        background-color:#d7e3fc ;
+    }
+    .containerCommentaire-margin {
+        background-color: #FBFBFD;
+        border-radius: 1rem;
+        box-shadow: 10px 20px 30px 5px rgba(0,0,0,0.45);
+        display: flex;
+        flex-direction: column;  
+        margin-top: 3em;
+        padding: 20px;
+    }
+    .container {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        padding-right: calc(50% - var(--container)/2);
+        padding-left: calc(50% - var(--container)/2);
+    }
+    textarea {
+        width: 100%;
+    }
+    .envoyer {
+        padding: 8px 15px 8px 15px;
+        margin-top: 10px;
+        background: #d7e3fc;
+        border: none;
+        color: rgba(0, 0, 0, 0.959);
+    }
+    .comment{
+        background-color: #FBFBFD;
+        border-radius: 1rem;
+        box-shadow: 10px 20px 30px 5px rgba(0,0,0,0.45);
+        margin-top: 1em;
+        border-radius: 0.5rem;
+        text-align: center;
+        width: 200%;
+        transform: translate(-28%);
+        margin-bottom: 3em;
+    }
+    #comments{
+        margin: 2.5%;
+        width: 50%;
+        padding: 100%/2;
+        position: absolute;
+        transform: translate(-50%);
+        left: 50%;
+    } 
+    #messageComment{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        font-family: "ROBOTO";
+    }
+    #nomUtilisateur{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        font-family: 'cinzel';
+    }
+}
+@media screen and (min-width:640px) {
+
+    .MasterContener {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.Titre {
+    margin-left: 4px;
+    padding-left: 4px;
+    margin-bottom: 1em;
+
+}
+:root {
+    --container:cal(100% - 40px);
+}
+h3{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}

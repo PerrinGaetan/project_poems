@@ -1,0 +1,1863 @@
+Oct  7 10:39:04 10.71.57.0 tmp106096334-8860 Connection from 10.71.57.0 port 16192 on 82.165.88.113 port 22
+Oct  7 10:39:04 10.71.57.0 tmp106096334-8860 Accepted password for tmp106096334-8860 from 10.71.57.0 port 16192 ssh2
+Oct  7 10:39:04 10.71.57.0 tmp106096334-8860 Starting session: subsystem 'sftp' for tmp106096334-8860 from 10.71.57.0 port 16192 id 0
+Oct  7 10:39:04 10.71.57.0 tmp106096334-8860 session opened for local user tmp106096334-8860 from [10.71.57.0]
+Oct  7 10:40:08 10.71.57.0 tmp106096334-9934 Connection from 10.71.57.0 port 64876 on 82.165.88.113 port 22
+Oct  7 10:40:08 10.71.57.0 tmp106096334-9934 Accepted password for tmp106096334-9934 from 10.71.57.0 port 64876 ssh2
+Oct  7 10:40:08 10.71.57.0 tmp106096334-9934 Starting session: subsystem 'sftp' for tmp106096334-9934 from 10.71.57.0 port 64876 id 0
+Oct  7 10:40:09 10.71.57.0 tmp106096334-9934 session opened for local user tmp106096334-9934 from [10.71.57.0]
+Oct  7 10:41:17 10.71.57.0 tmp106096334-9934 open "/index.html" flags READ mode 0666
+Oct  7 10:41:17 10.71.57.0 tmp106096334-9934 close "/index.html" bytes read 336 written 0
+Oct  7 10:41:17 10.71.57.0 tmp106096334-9934 [10.71.57.0|get|0|336|0|0|0|2f696e6465782e68746d6c|]
+Oct  7 10:41:19 10.71.57.0 tmp106096334-7663 Connection from 10.71.57.0 port 64546 on 82.165.88.113 port 22
+Oct  7 10:41:19 10.71.57.0 tmp106096334-7663 Accepted password for tmp106096334-7663 from 10.71.57.0 port 64546 ssh2
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 open "/bio.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 close "/bio.php" bytes read 0 written 4618
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|4618|0|0|0|2f62696f2e706870|]
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 close "/index.php" bytes read 0 written 1809
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|1809|0|0|0|2f696e6465782e706870|]
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 open "/poems.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 close "/poems.php" bytes read 0 written 7456
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|7456|0|0|0|2f706f656d732e706870|]
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 open "/poem.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 close "/poem.php" bytes read 0 written 2129
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|2129|0|0|0|2f706f656d2e706870|]
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 open "/thanks.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 close "/thanks.php" bytes read 0 written 4014
+Oct  7 10:42:37 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|4014|0|0|0|2f7468616e6b732e706870|]
+Oct  7 10:42:38 10.71.57.0 tmp106096334-9934 open "/script.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:42:38 10.71.57.0 tmp106096334-9934 close "/script.js" bytes read 0 written 1407
+Oct  7 10:42:38 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|1407|0|0|0|2f7363726970742e6a73|]
+Oct  7 10:42:50 10.71.57.0 tmp106096334-9934 mkdir name "/assets" mode 0777
+Oct  7 10:42:50 10.71.57.0 tmp106096334-9934 [10.71.57.0|mkdir|0|0|511|0|0|2f617373657473|]
+Oct  7 10:43:00 10.71.57.0 tmp106096334-9934 mkdir name "/functions" mode 0777
+Oct  7 10:43:00 10.71.57.0 tmp106096334-9934 [10.71.57.0|mkdir|0|0|511|0|0|2f66756e6374696f6e73|]
+Oct  7 10:43:09 10.71.57.0 tmp106096334-9934 mkdir name "/pictures" mode 0777
+Oct  7 10:43:09 10.71.57.0 tmp106096334-9934 [10.71.57.0|mkdir|0|0|511|0|0|2f7069637475726573|]
+Oct  7 10:43:17 10.71.57.0 tmp106096334-9934 mkdir name "/styles" mode 0777
+Oct  7 10:43:17 10.71.57.0 tmp106096334-9934 [10.71.57.0|mkdir|0|0|511|0|0|2f7374796c6573|]
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 open "/assets/form.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 close "/assets/form.php" bytes read 0 written 589
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|589|0|0|0|2f6173736574732f666f726d2e706870|]
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 open "/assets/header.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 close "/assets/header.php" bytes read 0 written 1659
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|1659|0|0|0|2f6173736574732f6865616465722e706870|]
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 open "/assets/aleatoire.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 close "/assets/aleatoire.php" bytes read 0 written 228
+Oct  7 10:43:38 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|228|0|0|0|2f6173736574732f616c6561746f6972652e706870|]
+Oct  7 10:43:39 10.71.57.0 tmp106096334-9934 open "/assets/footer.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:43:39 10.71.57.0 tmp106096334-9934 close "/assets/footer.php" bytes read 0 written 267
+Oct  7 10:43:39 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|267|0|0|0|2f6173736574732f666f6f7465722e706870|]
+Oct  7 10:43:52 10.71.57.0 tmp106096334-9934 mkdir name "/assets/class" mode 0777
+Oct  7 10:43:52 10.71.57.0 tmp106096334-9934 [10.71.57.0|mkdir|0|0|511|0|0|2f6173736574732f636c617373|]
+Oct  7 10:44:10 10.71.57.0 tmp106096334-9934 open "/assets/class/StoreData.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:44:10 10.71.57.0 tmp106096334-9934 close "/assets/class/StoreData.php" bytes read 0 written 395
+Oct  7 10:44:10 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|395|0|0|0|2f6173736574732f636c6173732f53746f7265446174612e706870|]
+Oct  7 10:44:11 10.71.57.0 tmp106096334-9934 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:44:11 10.71.57.0 tmp106096334-9934 close "/assets/class/Query.php" bytes read 0 written 446
+Oct  7 10:44:11 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|446|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 open "/functions/getPoemsKey.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 close "/functions/getPoemsKey.js" bytes read 0 written 6394
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|6394|0|0|0|2f66756e6374696f6e732f676574506f656d734b65792e6a73|]
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 open "/functions/getPoem.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 close "/functions/getPoem.js" bytes read 0 written 322
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|322|0|0|0|2f66756e6374696f6e732f676574506f656d2e6a73|]
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 open "/functions/injectPoem.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 close "/functions/injectPoem.js" bytes read 0 written 276
+Oct  7 10:44:30 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|276|0|0|0|2f66756e6374696f6e732f696e6a656374506f656d2e6a73|]
+Oct  7 10:44:59 10.71.57.0 tmp106096334-9934 open "/styles/footer.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:44:59 10.71.57.0 tmp106096334-9934 close "/styles/footer.css" bytes read 0 written 474
+Oct  7 10:44:59 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|474|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 open "/styles/bio.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 close "/styles/bio.css" bytes read 0 written 3964
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|3964|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 open "/styles/thanks.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 close "/styles/thanks.css" bytes read 0 written 1862
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|1862|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 open "/styles/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 close "/styles/style.css" bytes read 0 written 427
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|427|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 open "/styles/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 close "/styles/index.css" bytes read 0 written 1763
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|1763|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 open "/styles/header.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 close "/styles/header.css" bytes read 0 written 2046
+Oct  7 10:45:00 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|2046|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  7 10:45:01 10.71.57.0 tmp106096334-9934 open "/styles/poems.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:45:01 10.71.57.0 tmp106096334-9934 close "/styles/poems.css" bytes read 0 written 2877
+Oct  7 10:45:01 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|2877|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  7 10:45:01 10.71.57.0 tmp106096334-9934 open "/styles/poem.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:45:01 10.71.57.0 tmp106096334-9934 close "/styles/poem.css" bytes read 0 written 2004
+Oct  7 10:45:01 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|2004|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  7 10:45:17 10.71.57.0 tmp106096334-9934 mkdir name "/pictures/easter" mode 0777
+Oct  7 10:45:17 10.71.57.0 tmp106096334-9934 [10.71.57.0|mkdir|0|0|511|0|0|2f70696374757265732f656173746572|]
+Oct  7 10:45:25 10.71.57.0 tmp106096334-9934 mkdir name "/pictures/thanks" mode 0777
+Oct  7 10:45:25 10.71.57.0 tmp106096334-9934 [10.71.57.0|mkdir|0|0|511|0|0|2f70696374757265732f7468616e6b73|]
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 open "/pictures/rapon.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 close "/pictures/rapon.jpg" bytes read 0 written 28825
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|28825|0|0|0|2f70696374757265732f7261706f6e2e6a7067|]
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 open "/pictures/Feather.cur" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 close "/pictures/Feather.cur" bytes read 0 written 13942
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|13942|0|0|0|2f70696374757265732f466561746865722e637572|]
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 open "/pictures/dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 close "/pictures/dream.jpg" bytes read 0 written 249218
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|249218|0|0|0|2f70696374757265732f647265616d2e6a7067|]
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 open "/pictures/logo.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 close "/pictures/logo.svg" bytes read 0 written 168449
+Oct  7 10:46:05 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|168449|0|0|0|2f70696374757265732f6c6f676f2e737667|]
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 open "/pictures/karisko.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 close "/pictures/karisko.png" bytes read 0 written 73287
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|73287|0|0|0|2f70696374757265732f6b617269736b6f2e706e67|]
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 open "/pictures/peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 close "/pictures/peace.jpg" bytes read 0 written 332822
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|332822|0|0|0|2f70696374757265732f70656163652e6a7067|]
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 open "/pictures/love.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 close "/pictures/love.jpg" bytes read 0 written 305457
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|305457|0|0|0|2f70696374757265732f6c6f76652e6a7067|]
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 open "/pictures/freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 close "/pictures/freedom.jpg" bytes read 0 written 206974
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|206974|0|0|0|2f70696374757265732f66726565646f6d2e6a7067|]
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 open "/pictures/fond.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 close "/pictures/fond.jpg" bytes read 0 written 850304
+Oct  7 10:46:06 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|850304|0|0|0|2f70696374757265732f666f6e642e6a7067|]
+Oct  7 10:46:07 10.71.57.0 tmp106096334-9934 open "/pictures/happiness.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:07 10.71.57.0 tmp106096334-9934 close "/pictures/happiness.jpg" bytes read 0 written 295067
+Oct  7 10:46:07 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|295067|0|0|0|2f70696374757265732f68617070696e6573732e6a7067|]
+Oct  7 10:46:07 10.71.57.0 tmp106096334-9934 open "/pictures/friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:07 10.71.57.0 tmp106096334-9934 close "/pictures/friendship.jpg" bytes read 0 written 355977
+Oct  7 10:46:07 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|355977|0|0|0|2f70696374757265732f667269656e64736869702e6a7067|]
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 open "/pictures/thanks/Anne_Towne_logo.webp" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 close "/pictures/thanks/Anne_Towne_logo.webp" bytes read 0 written 972
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|972|0|0|0|2f70696374757265732f7468616e6b732f416e6e655f546f776e655f6c6f676f2e77656270|]
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 open "/pictures/thanks/Anke_Sundermeier_dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 close "/pictures/thanks/Anke_Sundermeier_dream.jpg" bytes read 0 written 13056
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|13056|0|0|0|2f70696374757265732f7468616e6b732f416e6b655f53756e6465726d656965725f647265616d2e6a7067|]
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 open "/pictures/thanks/Rayna_Bauman_friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 close "/pictures/thanks/Rayna_Bauman_friendship.jpg" bytes read 0 written 24896
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|24896|0|0|0|2f70696374757265732f7468616e6b732f5261796e615f4261756d616e5f667269656e64736869702e6a7067|]
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 open "/pictures/thanks/Helena_Cuerva_peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 close "/pictures/thanks/Helena_Cuerva_peace.jpg" bytes read 0 written 12792
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|12792|0|0|0|2f70696374757265732f7468616e6b732f48656c656e615f4375657276615f70656163652e6a7067|]
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 open "/pictures/thanks/Ben_Kerckx_love.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 close "/pictures/thanks/Ben_Kerckx_love.jpg" bytes read 0 written 9933
+Oct  7 10:46:34 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|9933|0|0|0|2f70696374757265732f7468616e6b732f42656e5f4b6572636b785f6c6f76652e6a7067|]
+Oct  7 10:46:35 10.71.57.0 tmp106096334-9934 open "/pictures/thanks/Marvel_Mozhko_happiness.webp" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:35 10.71.57.0 tmp106096334-9934 close "/pictures/thanks/Marvel_Mozhko_happiness.webp" bytes read 0 written 1536
+Oct  7 10:46:35 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|1536|0|0|0|2f70696374757265732f7468616e6b732f4d617276656c5f4d6f7a686b6f5f68617070696e6573732e77656270|]
+Oct  7 10:46:35 10.71.57.0 tmp106096334-9934 open "/pictures/thanks/Jill_Wellington_freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:46:35 10.71.57.0 tmp106096334-9934 close "/pictures/thanks/Jill_Wellington_freedom.jpg" bytes read 0 written 22143
+Oct  7 10:46:35 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|22143|0|0|0|2f70696374757265732f7468616e6b732f4a696c6c5f57656c6c696e67746f6e5f66726565646f6d2e6a7067|]
+Oct  7 10:49:43 10.71.57.0 tmp106096334-9934 open "/assets/class/Query.php" flags READ mode 0666
+Oct  7 10:49:43 10.71.57.0 tmp106096334-9934 close "/assets/class/Query.php" bytes read 446 written 0
+Oct  7 10:49:43 10.71.57.0 tmp106096334-9934 [10.71.57.0|get|0|446|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 10:50:39 10.71.57.0 tmp106096334-9934 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 10:50:39 10.71.57.0 tmp106096334-9934 close "/assets/class/Query.php" bytes read 0 written 468
+Oct  7 10:50:39 10.71.57.0 tmp106096334-9934 [10.71.57.0|put|0|468|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 11:39:24 10.71.57.0 tmp106096334-8860 session closed for local user tmp106096334-8860 from [10.71.57.0]
+Oct  7 11:39:24 10.71.57.0 tmp106096334-8860 Connection closed by 10.71.57.0 port 16192
+Oct  7 12:01:25 10.71.57.0 tmp106096334-9934 Connection closed by 10.71.57.0 port 64876
+Oct  7 12:01:25 10.71.57.0 tmp106096334-9934 session closed for local user tmp106096334-9934 from [10.71.57.0]
+Oct  7 12:01:25 10.71.57.0 tmp106096334-7663 Connection closed by 10.71.57.0 port 64546
+Oct  7 13:15:07 10.71.57.0 tmp106096334-926 Connection from 10.71.57.0 port 38176 on 82.165.88.113 port 22
+Oct  7 13:15:07 10.71.57.0 tmp106096334-926 Accepted password for tmp106096334-926 from 10.71.57.0 port 38176 ssh2
+Oct  7 13:15:08 10.71.57.0 tmp106096334-926 Starting session: subsystem 'sftp' for tmp106096334-926 from 10.71.57.0 port 38176 id 0
+Oct  7 13:15:08 10.71.57.0 tmp106096334-926 session opened for local user tmp106096334-926 from [10.71.57.0]
+Oct  7 13:45:58 10.71.57.0 tmp106096334-5890 Connection from 10.71.57.0 port 17188 on 82.165.88.113 port 22
+Oct  7 13:45:58 10.71.57.0 tmp106096334-5890 Accepted password for tmp106096334-5890 from 10.71.57.0 port 17188 ssh2
+Oct  7 13:45:58 10.71.57.0 tmp106096334-5890 Starting session: subsystem 'sftp' for tmp106096334-5890 from 10.71.57.0 port 17188 id 0
+Oct  7 13:45:58 10.71.57.0 tmp106096334-5890 session opened for local user tmp106096334-5890 from [10.71.57.0]
+Oct  7 13:49:14 10.71.56.0 u106096334 Connection from 10.71.56.0 port 22976 on 82.165.88.113 port 22
+Oct  7 13:49:19 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 22976 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  7 13:49:19 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 22976 ssh2
+Oct  7 13:49:19 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 22976 id 0
+Oct  7 13:49:19 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  7 14:03:12 10.71.56.0 u106096334 remove name "/thanks.php"
+Oct  7 14:03:12 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7468616e6b732e706870|]
+Oct  7 14:03:12 10.71.56.0 u106096334 remove name "/script.js"
+Oct  7 14:03:12 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7363726970742e6a73|]
+Oct  7 14:03:12 10.71.56.0 u106096334 remove name "/poems.php"
+Oct  7 14:03:12 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f706f656d732e706870|]
+Oct  7 14:03:12 10.71.56.0 u106096334 remove name "/poem.php"
+Oct  7 14:03:12 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f706f656d2e706870|]
+Oct  7 14:03:12 10.71.56.0 u106096334 remove name "/index.php"
+Oct  7 14:03:12 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f696e6465782e706870|]
+Oct  7 14:03:12 10.71.56.0 u106096334 remove name "/index.html"
+Oct  7 14:03:12 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f696e6465782e68746d6c|]
+Oct  7 14:03:12 10.71.56.0 u106096334 remove name "/bio.php"
+Oct  7 14:03:12 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f62696f2e706870|]
+Oct  7 14:03:14 10.71.56.0 u106096334 remove name "/assets/form.php"
+Oct  7 14:03:14 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f6173736574732f666f726d2e706870|]
+Oct  7 14:03:14 10.71.56.0 u106096334 remove name "/assets/header.php"
+Oct  7 14:03:14 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f6173736574732f6865616465722e706870|]
+Oct  7 14:03:14 10.71.56.0 u106096334 remove name "/assets/aleatoire.php"
+Oct  7 14:03:14 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f6173736574732f616c6561746f6972652e706870|]
+Oct  7 14:03:14 10.71.56.0 u106096334 remove name "/assets/footer.php"
+Oct  7 14:03:14 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f6173736574732f666f6f7465722e706870|]
+Oct  7 14:03:17 10.71.56.0 u106096334 remove name "/assets/class/StoreData.php"
+Oct  7 14:03:17 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f6173736574732f636c6173732f53746f7265446174612e706870|]
+Oct  7 14:03:17 10.71.56.0 u106096334 remove name "/assets/class/Query.php"
+Oct  7 14:03:17 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 14:03:17 10.71.56.0 u106096334 rmdir name "/assets/class"
+Oct  7 14:03:17 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|0|2f6173736574732f636c617373|]
+Oct  7 14:03:17 10.71.56.0 u106096334 rmdir name "/assets"
+Oct  7 14:03:17 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|0|2f617373657473|]
+Oct  7 14:03:19 10.71.56.0 u106096334 remove name "/functions/getPoemsKey.js"
+Oct  7 14:03:19 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f66756e6374696f6e732f676574506f656d734b65792e6a73|]
+Oct  7 14:03:19 10.71.56.0 u106096334 remove name "/functions/getPoem.js"
+Oct  7 14:03:19 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f66756e6374696f6e732f676574506f656d2e6a73|]
+Oct  7 14:03:19 10.71.56.0 u106096334 remove name "/functions/injectPoem.js"
+Oct  7 14:03:19 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f66756e6374696f6e732f696e6a656374506f656d2e6a73|]
+Oct  7 14:03:19 10.71.56.0 u106096334 rmdir name "/functions"
+Oct  7 14:03:19 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|0|2f66756e6374696f6e73|]
+Oct  7 14:03:20 10.71.56.0 u106096334 remove name "/logs/.htaccess"
+Oct  7 14:03:20 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|13|2f6c6f67732f2e6874616363657373|]
+Oct  7 14:03:20 10.71.56.0 u106096334 sent status Permission denied
+Oct  7 14:03:21 10.71.56.0 u106096334 remove name "/logs/info.pl"
+Oct  7 14:03:21 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|13|2f6c6f67732f696e666f2e706c|]
+Oct  7 14:03:21 10.71.56.0 u106096334 sent status Permission denied
+Oct  7 14:03:21 10.71.56.0 u106096334 remove name "/logs/info.php5"
+Oct  7 14:03:21 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|13|2f6c6f67732f696e666f2e70687035|]
+Oct  7 14:03:21 10.71.56.0 u106096334 sent status Permission denied
+Oct  7 14:03:21 10.71.56.0 u106096334 remove name "/logs/info.py"
+Oct  7 14:03:21 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|13|2f6c6f67732f696e666f2e7079|]
+Oct  7 14:03:21 10.71.56.0 u106096334 sent status Permission denied
+Oct  7 14:03:21 10.71.56.0 u106096334 remove name "/logs/sftp.log"
+Oct  7 14:03:21 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|13|2f6c6f67732f736674702e6c6f67|]
+Oct  7 14:03:21 10.71.56.0 u106096334 sent status Permission denied
+Oct  7 14:03:21 10.71.56.0 u106096334 remove name "/logs/access.log.40.4"
+Oct  7 14:03:21 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e34302e34|]
+Oct  7 14:03:21 10.71.56.0 u106096334 sent status Permission denied
+Oct  7 14:03:22 10.71.56.0 u106096334 remove name "/logs/access.log.current"
+Oct  7 14:03:22 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Oct  7 14:03:22 10.71.56.0 u106096334 sent status Permission denied
+Oct  7 14:03:22 10.71.56.0 u106096334 rmdir name "/logs/traffic.html"
+Oct  7 14:03:22 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|13|2f6c6f67732f747261666669632e68746d6c|]
+Oct  7 14:03:22 10.71.56.0 u106096334 sent status Permission denied
+Oct  7 14:03:23 10.71.56.0 u106096334 rmdir name "/logs"
+Oct  7 14:03:23 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|39|2f6c6f6773|]
+Oct  7 14:03:23 10.71.56.0 u106096334 sent status Failure
+Oct  7 14:03:24 10.71.56.0 u106096334 remove name "/pictures/rapon.jpg"
+Oct  7 14:03:24 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f7261706f6e2e6a7067|]
+Oct  7 14:03:24 10.71.56.0 u106096334 remove name "/pictures/Feather.cur"
+Oct  7 14:03:24 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f466561746865722e637572|]
+Oct  7 14:03:25 10.71.56.0 u106096334 remove name "/pictures/dream.jpg"
+Oct  7 14:03:25 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f647265616d2e6a7067|]
+Oct  7 14:03:25 10.71.56.0 u106096334 remove name "/pictures/logo.svg"
+Oct  7 14:03:25 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6c6f676f2e737667|]
+Oct  7 14:03:25 10.71.56.0 u106096334 remove name "/pictures/karisko.png"
+Oct  7 14:03:25 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6b617269736b6f2e706e67|]
+Oct  7 14:03:25 10.71.56.0 u106096334 remove name "/pictures/peace.jpg"
+Oct  7 14:03:25 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f70656163652e6a7067|]
+Oct  7 14:03:25 10.71.56.0 u106096334 remove name "/pictures/love.jpg"
+Oct  7 14:03:25 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6c6f76652e6a7067|]
+Oct  7 14:03:25 10.71.56.0 u106096334 remove name "/pictures/freedom.jpg"
+Oct  7 14:03:25 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f66726565646f6d2e6a7067|]
+Oct  7 14:03:26 10.71.56.0 u106096334 remove name "/pictures/fond.jpg"
+Oct  7 14:03:26 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f666f6e642e6a7067|]
+Oct  7 14:03:26 10.71.56.0 u106096334 remove name "/pictures/happiness.jpg"
+Oct  7 14:03:26 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f68617070696e6573732e6a7067|]
+Oct  7 14:03:26 10.71.56.0 u106096334 remove name "/pictures/friendship.jpg"
+Oct  7 14:03:26 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f667269656e64736869702e6a7067|]
+Oct  7 14:03:27 10.71.56.0 u106096334 rmdir name "/pictures/easter"
+Oct  7 14:03:27 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|0|2f70696374757265732f656173746572|]
+Oct  7 14:03:28 10.71.56.0 u106096334 remove name "/pictures/thanks/Anne_Towne_logo.webp"
+Oct  7 14:03:28 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f7468616e6b732f416e6e655f546f776e655f6c6f676f2e77656270|]
+Oct  7 14:03:28 10.71.56.0 u106096334 remove name "/pictures/thanks/Anke_Sundermeier_dream.jpg"
+Oct  7 14:03:28 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f7468616e6b732f416e6b655f53756e6465726d656965725f647265616d2e6a7067|]
+Oct  7 14:03:29 10.71.56.0 u106096334 remove name "/pictures/thanks/Rayna_Bauman_friendship.jpg"
+Oct  7 14:03:29 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f7468616e6b732f5261796e615f4261756d616e5f667269656e64736869702e6a7067|]
+Oct  7 14:03:29 10.71.56.0 u106096334 remove name "/pictures/thanks/Helena_Cuerva_peace.jpg"
+Oct  7 14:03:29 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f7468616e6b732f48656c656e615f4375657276615f70656163652e6a7067|]
+Oct  7 14:03:29 10.71.56.0 u106096334 remove name "/pictures/thanks/Ben_Kerckx_love.jpg"
+Oct  7 14:03:29 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f7468616e6b732f42656e5f4b6572636b785f6c6f76652e6a7067|]
+Oct  7 14:03:29 10.71.56.0 u106096334 remove name "/pictures/thanks/Marvel_Mozhko_happiness.webp"
+Oct  7 14:03:29 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f7468616e6b732f4d617276656c5f4d6f7a686b6f5f68617070696e6573732e77656270|]
+Oct  7 14:03:29 10.71.56.0 u106096334 remove name "/pictures/thanks/Jill_Wellington_freedom.jpg"
+Oct  7 14:03:29 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f7468616e6b732f4a696c6c5f57656c6c696e67746f6e5f66726565646f6d2e6a7067|]
+Oct  7 14:03:29 10.71.56.0 u106096334 rmdir name "/pictures/thanks"
+Oct  7 14:03:29 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|0|2f70696374757265732f7468616e6b73|]
+Oct  7 14:03:30 10.71.56.0 u106096334 rmdir name "/pictures"
+Oct  7 14:03:30 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|0|2f7069637475726573|]
+Oct  7 14:03:30 10.71.56.0 u106096334 remove name "/styles/footer.css"
+Oct  7 14:03:30 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  7 14:03:30 10.71.56.0 u106096334 remove name "/styles/bio.css"
+Oct  7 14:03:30 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  7 14:03:30 10.71.56.0 u106096334 remove name "/styles/thanks.css"
+Oct  7 14:03:30 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  7 14:03:31 10.71.56.0 u106096334 remove name "/styles/style.css"
+Oct  7 14:03:31 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  7 14:03:31 10.71.56.0 u106096334 remove name "/styles/index.css"
+Oct  7 14:03:31 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  7 14:03:31 10.71.56.0 u106096334 remove name "/styles/header.css"
+Oct  7 14:03:31 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  7 14:03:31 10.71.56.0 u106096334 remove name "/styles/poems.css"
+Oct  7 14:03:31 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  7 14:03:31 10.71.56.0 u106096334 remove name "/styles/poem.css"
+Oct  7 14:03:31 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  7 14:03:31 10.71.56.0 u106096334 rmdir name "/styles"
+Oct  7 14:03:31 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|0|2f7374796c6573|]
+Oct  7 14:03:43 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 22976
+Oct  7 14:03:43 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  7 14:28:23 10.71.57.0 tmp106096334-926 session closed for local user tmp106096334-926 from [10.71.57.0]
+Oct  7 14:28:23 10.71.57.0 tmp106096334-926 Connection closed by 10.71.57.0 port 38176
+Oct  7 14:47:47 10.71.56.0 u106096334 Connection from 10.71.56.0 port 14046 on 82.165.88.113 port 22
+Oct  7 14:47:48 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 14046 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  7 14:47:48 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 14046 ssh2
+Oct  7 14:47:49 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 14046 id 0
+Oct  7 14:47:49 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  7 15:56:36 10.71.57.0 tmp106096334-5890 Connection closed by 10.71.57.0 port 17188
+Oct  7 15:56:36 10.71.57.0 tmp106096334-5890 session closed for local user tmp106096334-5890 from [10.71.57.0]
+Oct  7 16:44:54 10.71.56.0 u106096334 Connection from 10.71.56.0 port 37474 on 82.165.88.113 port 22
+Oct  7 16:44:54 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 37474 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  7 16:44:54 10.71.56.0 u106096334 Connection from 10.71.56.0 port 37476 on 82.165.88.113 port 22
+Oct  7 16:44:54 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 37476 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  7 16:44:54 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 37474 ssh2
+Oct  7 16:44:54 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 37476 ssh2
+Oct  7 16:44:54 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 37474 id 0
+Oct  7 16:44:54 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 37476 id 0
+Oct  7 16:44:54 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  7 16:44:54 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  7 16:44:55 10.71.56.0 u106096334 open "/bio.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:55 10.71.56.0 u106096334 close "/bio.php" bytes read 0 written 4771
+Oct  7 16:44:55 10.71.56.0 u106096334 [10.71.56.0|put|1|4771|0|0|0|2f62696f2e706870|]
+Oct  7 16:44:55 10.71.56.0 u106096334 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:55 10.71.56.0 u106096334 open "/poem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:55 10.71.56.0 u106096334 close "/index.php" bytes read 0 written 1809
+Oct  7 16:44:55 10.71.56.0 u106096334 [10.71.56.0|put|0|1809|0|0|0|2f696e6465782e706870|]
+Oct  7 16:44:55 10.71.56.0 u106096334 close "/poem.php" bytes read 0 written 2677
+Oct  7 16:44:55 10.71.56.0 u106096334 [10.71.56.0|put|0|2677|0|0|0|2f706f656d2e706870|]
+Oct  7 16:44:55 10.71.56.0 u106096334 open "/poems.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:55 10.71.56.0 u106096334 open "/script.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:55 10.71.56.0 u106096334 close "/poems.php" bytes read 0 written 6868
+Oct  7 16:44:55 10.71.56.0 u106096334 [10.71.56.0|put|0|6868|0|0|0|2f706f656d732e706870|]
+Oct  7 16:44:55 10.71.56.0 u106096334 close "/script.js" bytes read 0 written 1407
+Oct  7 16:44:55 10.71.56.0 u106096334 [10.71.56.0|put|0|1407|0|0|0|2f7363726970742e6a73|]
+Oct  7 16:44:55 10.71.56.0 u106096334 open "/thanks.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:55 10.71.56.0 u106096334 sent status No such file
+Oct  7 16:44:55 10.71.56.0 u106096334 close "/thanks.php" bytes read 0 written 4014
+Oct  7 16:44:55 10.71.56.0 u106096334 [10.71.56.0|put|0|4014|0|0|0|2f7468616e6b732e706870|]
+Oct  7 16:44:55 10.71.56.0 u106096334 mkdir name "/assets" mode 0777
+Oct  7 16:44:55 10.71.56.0 u106096334 [10.71.56.0|mkdir|0|0|511|0|0|2f617373657473|]
+Oct  7 16:44:56 10.71.56.0 u106096334 open "/assets/footer.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:56 10.71.56.0 u106096334 open "/assets/header.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:56 10.71.56.0 u106096334 close "/assets/footer.php" bytes read 0 written 267
+Oct  7 16:44:56 10.71.56.0 u106096334 [10.71.56.0|put|0|267|0|0|0|2f6173736574732f666f6f7465722e706870|]
+Oct  7 16:44:56 10.71.56.0 u106096334 close "/assets/header.php" bytes read 0 written 1717
+Oct  7 16:44:56 10.71.56.0 u106096334 [10.71.56.0|put|0|1717|0|0|0|2f6173736574732f6865616465722e706870|]
+Oct  7 16:44:56 10.71.56.0 u106096334 sent status No such file
+Oct  7 16:44:56 10.71.56.0 u106096334 mkdir name "/assets/class" mode 0777
+Oct  7 16:44:56 10.71.56.0 u106096334 [10.71.56.0|mkdir|0|0|511|0|0|2f6173736574732f636c617373|]
+Oct  7 16:44:57 10.71.56.0 u106096334 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:57 10.71.56.0 u106096334 open "/assets/class/SelectPoem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:57 10.71.56.0 u106096334 close "/assets/class/Query.php" bytes read 0 written 476
+Oct  7 16:44:57 10.71.56.0 u106096334 [10.71.56.0|put|0|476|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 16:44:57 10.71.56.0 u106096334 close "/assets/class/SelectPoem.php" bytes read 0 written 610
+Oct  7 16:44:57 10.71.56.0 u106096334 [10.71.56.0|put|0|610|0|0|0|2f6173736574732f636c6173732f53656c656374506f656d2e706870|]
+Oct  7 16:44:57 10.71.56.0 u106096334 open "/assets/class/StoreData.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:57 10.71.56.0 u106096334 sent status No such file
+Oct  7 16:44:57 10.71.56.0 u106096334 close "/assets/class/StoreData.php" bytes read 0 written 486
+Oct  7 16:44:57 10.71.56.0 u106096334 [10.71.56.0|put|0|486|0|0|0|2f6173736574732f636c6173732f53746f7265446174612e706870|]
+Oct  7 16:44:57 10.71.56.0 u106096334 mkdir name "/functions" mode 0777
+Oct  7 16:44:57 10.71.56.0 u106096334 [10.71.56.0|mkdir|0|0|511|0|0|2f66756e6374696f6e73|]
+Oct  7 16:44:58 10.71.56.0 u106096334 open "/functions/getPoemsKey.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:58 10.71.56.0 u106096334 open "/functions/getPoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:58 10.71.56.0 u106096334 close "/functions/getPoemsKey.js" bytes read 0 written 6394
+Oct  7 16:44:58 10.71.56.0 u106096334 [10.71.56.0|put|0|6394|0|0|0|2f66756e6374696f6e732f676574506f656d734b65792e6a73|]
+Oct  7 16:44:58 10.71.56.0 u106096334 close "/functions/getPoem.js" bytes read 0 written 322
+Oct  7 16:44:58 10.71.56.0 u106096334 [10.71.56.0|put|0|322|0|0|0|2f66756e6374696f6e732f676574506f656d2e6a73|]
+Oct  7 16:44:58 10.71.56.0 u106096334 open "/functions/injectPoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:58 10.71.56.0 u106096334 open "/functions/evaluatePoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:58 10.71.56.0 u106096334 close "/functions/injectPoem.js" bytes read 0 written 276
+Oct  7 16:44:58 10.71.56.0 u106096334 [10.71.56.0|put|0|276|0|0|0|2f66756e6374696f6e732f696e6a656374506f656d2e6a73|]
+Oct  7 16:44:58 10.71.56.0 u106096334 close "/functions/evaluatePoem.js" bytes read 0 written 480
+Oct  7 16:44:58 10.71.56.0 u106096334 [10.71.56.0|put|0|480|0|0|0|2f66756e6374696f6e732f6576616c75617465506f656d2e6a73|]
+Oct  7 16:44:58 10.71.56.0 u106096334 sent status No such file
+Oct  7 16:44:58 10.71.56.0 u106096334 mkdir name "/pictures" mode 0777
+Oct  7 16:44:58 10.71.56.0 u106096334 [10.71.56.0|mkdir|0|0|511|0|0|2f7069637475726573|]
+Oct  7 16:44:59 10.71.56.0 u106096334 open "/pictures/jaime.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:59 10.71.56.0 u106096334 open "/pictures/Feather.cur" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:59 10.71.56.0 u106096334 close "/pictures/Feather.cur" bytes read 0 written 13942
+Oct  7 16:44:59 10.71.56.0 u106096334 [10.71.56.0|put|0|13942|0|0|0|2f70696374757265732f466561746865722e637572|]
+Oct  7 16:44:59 10.71.56.0 u106096334 close "/pictures/jaime.jpg" bytes read 0 written 33439
+Oct  7 16:44:59 10.71.56.0 u106096334 [10.71.56.0|put|0|33439|0|0|0|2f70696374757265732f6a61696d652e6a7067|]
+Oct  7 16:44:59 10.71.56.0 u106096334 open "/pictures/logo.svg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:44:59 10.71.56.0 u106096334 open "/pictures/dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:00 10.71.56.0 u106096334 close "/pictures/logo.svg" bytes read 0 written 168449
+Oct  7 16:45:00 10.71.56.0 u106096334 [10.71.56.0|put|1|168449|0|0|0|2f70696374757265732f6c6f676f2e737667|]
+Oct  7 16:45:00 10.71.56.0 u106096334 open "/pictures/img_asso.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:00 10.71.56.0 u106096334 close "/pictures/dream.jpg" bytes read 0 written 249218
+Oct  7 16:45:00 10.71.56.0 u106096334 [10.71.56.0|put|1|249218|0|0|0|2f70696374757265732f647265616d2e6a7067|]
+Oct  7 16:45:01 10.71.56.0 u106096334 close "/pictures/img_asso.jpg" bytes read 0 written 11277
+Oct  7 16:45:01 10.71.56.0 u106096334 [10.71.56.0|put|1|11277|0|0|0|2f70696374757265732f696d675f6173736f2e6a7067|]
+Oct  7 16:45:01 10.71.56.0 u106096334 open "/pictures/karisko.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:01 10.71.56.0 u106096334 open "/pictures/fond.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:01 10.71.56.0 u106096334 close "/pictures/karisko.png" bytes read 0 written 73287
+Oct  7 16:45:01 10.71.56.0 u106096334 [10.71.56.0|put|0|73287|0|0|0|2f70696374757265732f6b617269736b6f2e706e67|]
+Oct  7 16:45:02 10.71.56.0 u106096334 open "/pictures/peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:04 10.71.56.0 u106096334 close "/pictures/fond.jpg" bytes read 0 written 850304
+Oct  7 16:45:04 10.71.56.0 u106096334 [10.71.56.0|put|3|850304|0|0|0|2f70696374757265732f666f6e642e6a7067|]
+Oct  7 16:45:05 10.71.56.0 u106096334 open "/pictures/cdle.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:05 10.71.56.0 u106096334 close "/pictures/cdle.jpeg" bytes read 0 written 7325
+Oct  7 16:45:05 10.71.56.0 u106096334 [10.71.56.0|put|0|7325|0|0|0|2f70696374757265732f63646c652e6a706567|]
+Oct  7 16:45:05 10.71.56.0 u106096334 close "/pictures/peace.jpg" bytes read 0 written 332822
+Oct  7 16:45:05 10.71.56.0 u106096334 [10.71.56.0|put|3|332822|0|0|0|2f70696374757265732f70656163652e6a7067|]
+Oct  7 16:45:05 10.71.56.0 u106096334 open "/pictures/friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:05 10.71.56.0 u106096334 open "/pictures/freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:06 10.71.56.0 u106096334 close "/pictures/friendship.jpg" bytes read 0 written 355977
+Oct  7 16:45:06 10.71.56.0 u106096334 [10.71.56.0|put|1|355977|0|0|0|2f70696374757265732f667269656e64736869702e6a7067|]
+Oct  7 16:45:07 10.71.56.0 u106096334 open "/pictures/img_artist.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:07 10.71.56.0 u106096334 close "/pictures/freedom.jpg" bytes read 0 written 206974
+Oct  7 16:45:07 10.71.56.0 u106096334 [10.71.56.0|put|2|206974|0|0|0|2f70696374757265732f66726565646f6d2e6a7067|]
+Oct  7 16:45:07 10.71.56.0 u106096334 close "/pictures/img_artist.jpeg" bytes read 0 written 22701
+Oct  7 16:45:07 10.71.56.0 u106096334 [10.71.56.0|put|1|22701|0|0|0|2f70696374757265732f696d675f6172746973742e6a706567|]
+Oct  7 16:45:07 10.71.56.0 u106096334 open "/pictures/love.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:07 10.71.56.0 u106096334 open "/pictures/rapon.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:07 10.71.56.0 u106096334 close "/pictures/rapon.jpg" bytes read 0 written 28825
+Oct  7 16:45:07 10.71.56.0 u106096334 [10.71.56.0|put|0|28825|0|0|0|2f70696374757265732f7261706f6e2e6a7067|]
+Oct  7 16:45:08 10.71.56.0 u106096334 open "/pictures/happiness.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:08 10.71.56.0 u106096334 close "/pictures/love.jpg" bytes read 0 written 305457
+Oct  7 16:45:08 10.71.56.0 u106096334 [10.71.56.0|put|1|305457|0|0|0|2f70696374757265732f6c6f76652e6a7067|]
+Oct  7 16:45:09 10.71.56.0 u106096334 sent status No such file
+Oct  7 16:45:09 10.71.56.0 u106096334 close "/pictures/happiness.jpg" bytes read 0 written 295067
+Oct  7 16:45:09 10.71.56.0 u106096334 [10.71.56.0|put|1|295067|0|0|0|2f70696374757265732f68617070696e6573732e6a7067|]
+Oct  7 16:45:09 10.71.56.0 u106096334 mkdir name "/pictures/easter" mode 0777
+Oct  7 16:45:09 10.71.56.0 u106096334 [10.71.56.0|mkdir|0|0|511|0|0|2f70696374757265732f656173746572|]
+Oct  7 16:45:10 10.71.56.0 u106096334 open "/pictures/easter/thomas.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:10 10.71.56.0 u106096334 open "/pictures/easter/malik.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:10 10.71.56.0 u106096334 close "/pictures/easter/malik.png" bytes read 0 written 95818
+Oct  7 16:45:10 10.71.56.0 u106096334 [10.71.56.0|put|0|95818|0|0|0|2f70696374757265732f6561737465722f6d616c696b2e706e67|]
+Oct  7 16:45:10 10.71.56.0 u106096334 open "/pictures/easter/nicolas.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:11 10.71.56.0 u106096334 close "/pictures/easter/nicolas.jpg" bytes read 0 written 70492
+Oct  7 16:45:11 10.71.56.0 u106096334 [10.71.56.0|put|1|70492|0|0|0|2f70696374757265732f6561737465722f6e69636f6c61732e6a7067|]
+Oct  7 16:45:11 10.71.56.0 u106096334 close "/pictures/easter/thomas.png" bytes read 0 written 349262
+Oct  7 16:45:11 10.71.56.0 u106096334 [10.71.56.0|put|1|349262|0|0|0|2f70696374757265732f6561737465722f74686f6d61732e706e67|]
+Oct  7 16:45:11 10.71.56.0 u106096334 open "/pictures/easter/loic.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:11 10.71.56.0 u106096334 open "/pictures/easter/maxime.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:11 10.71.56.0 u106096334 close "/pictures/easter/maxime.jpg" bytes read 0 written 23138
+Oct  7 16:45:11 10.71.56.0 u106096334 [10.71.56.0|put|0|23138|0|0|0|2f70696374757265732f6561737465722f6d6178696d652e6a7067|]
+Oct  7 16:45:11 10.71.56.0 u106096334 open "/pictures/easter/giovanny.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:12 10.71.56.0 u106096334 close "/pictures/easter/loic.png" bytes read 0 written 207705
+Oct  7 16:45:12 10.71.56.0 u106096334 [10.71.56.0|put|1|207705|0|0|0|2f70696374757265732f6561737465722f6c6f69632e706e67|]
+Oct  7 16:45:12 10.71.56.0 u106096334 open "/pictures/easter/Screenshot_2021-09-21-22-37-45-00_254de13a4bc8758c9908fff1f73e3725.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:12 10.71.56.0 u106096334 close "/pictures/easter/giovanny.png" bytes read 0 written 74569
+Oct  7 16:45:12 10.71.56.0 u106096334 [10.71.56.0|put|1|74569|0|0|0|2f70696374757265732f6561737465722f67696f76616e6e792e706e67|]
+Oct  7 16:45:12 10.71.56.0 u106096334 open "/pictures/easter/leo.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:12 10.71.56.0 u106096334 close "/pictures/easter/Screenshot_2021-09-21-22-37-45-00_254de13a4bc8758c9908fff1f73e3725.jpg" bytes read 0 written 73218
+Oct  7 16:45:12 10.71.56.0 u106096334 [10.71.56.0|put|0|73218|0|0|0|2f70696374757265732f6561737465722f53637265656e73686f745f323032312d30392d32312d32322d33372d34352d30305f32353464653133613462633837353863393930386666663166373365333732352e6a7067|]
+Oct  7 16:45:12 10.71.56.0 u106096334 open "/pictures/easter/julien.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:12 10.71.56.0 u106096334 close "/pictures/easter/julien.jpg" bytes read 0 written 71804
+Oct  7 16:45:12 10.71.56.0 u106096334 [10.71.56.0|put|0|71804|0|0|0|2f70696374757265732f6561737465722f6a756c69656e2e6a7067|]
+Oct  7 16:45:12 10.71.56.0 u106096334 open "/pictures/easter/Screenshot_2021-09-21-22-51-41-67_a23b203fd3aafc6dcb84e438dda678b6.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:13 10.71.56.0 u106096334 close "/pictures/easter/leo.png" bytes read 0 written 266693
+Oct  7 16:45:13 10.71.56.0 u106096334 [10.71.56.0|put|1|266693|0|0|0|2f70696374757265732f6561737465722f6c656f2e706e67|]
+Oct  7 16:45:13 10.71.56.0 u106096334 close "/pictures/easter/Screenshot_2021-09-21-22-51-41-67_a23b203fd3aafc6dcb84e438dda678b6.png" bytes read 0 written 69425
+Oct  7 16:45:13 10.71.56.0 u106096334 [10.71.56.0|put|1|69425|0|0|0|2f70696374757265732f6561737465722f53637265656e73686f745f323032312d30392d32312d32322d35312d34312d36375f61323362323033666433616166633664636238346534333864646136373862362e706e67|]
+Oct  7 16:45:13 10.71.56.0 u106096334 open "/pictures/easter/cecile.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:13 10.71.56.0 u106096334 open "/pictures/easter/lionnel.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:13 10.71.56.0 u106096334 close "/pictures/easter/cecile.jpg" bytes read 0 written 74967
+Oct  7 16:45:13 10.71.56.0 u106096334 [10.71.56.0|put|0|74967|0|0|0|2f70696374757265732f6561737465722f636563696c652e6a7067|]
+Oct  7 16:45:13 10.71.56.0 u106096334 close "/pictures/easter/lionnel.jpg" bytes read 0 written 57777
+Oct  7 16:45:13 10.71.56.0 u106096334 [10.71.56.0|put|0|57777|0|0|0|2f70696374757265732f6561737465722f6c696f6e6e656c2e6a7067|]
+Oct  7 16:45:13 10.71.56.0 u106096334 open "/pictures/easter/charlie.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:13 10.71.56.0 u106096334 open "/pictures/easter/Screenshot_2021-09-21-22-18-25-97_a23b203fd3aafc6dcb84e438dda678b6.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:14 10.71.56.0 u106096334 close "/pictures/easter/charlie.png" bytes read 0 written 73282
+Oct  7 16:45:14 10.71.56.0 u106096334 [10.71.56.0|put|1|73282|0|0|0|2f70696374757265732f6561737465722f636861726c69652e706e67|]
+Oct  7 16:45:14 10.71.56.0 u106096334 close "/pictures/easter/Screenshot_2021-09-21-22-18-25-97_a23b203fd3aafc6dcb84e438dda678b6.png" bytes read 0 written 169376
+Oct  7 16:45:14 10.71.56.0 u106096334 [10.71.56.0|put|1|169376|0|0|0|2f70696374757265732f6561737465722f53637265656e73686f745f323032312d30392d32312d32322d31382d32352d39375f61323362323033666433616166633664636238346534333864646136373862362e706e67|]
+Oct  7 16:45:14 10.71.56.0 u106096334 sent status No such file
+Oct  7 16:45:14 10.71.56.0 u106096334 mkdir name "/pictures/thanks" mode 0777
+Oct  7 16:45:14 10.71.56.0 u106096334 [10.71.56.0|mkdir|0|0|511|0|0|2f70696374757265732f7468616e6b73|]
+Oct  7 16:45:15 10.71.56.0 u106096334 open "/pictures/thanks/Anne_Towne_logo.webp" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:15 10.71.56.0 u106096334 open "/pictures/thanks/Marvel_Mozhko_happiness.webp" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:15 10.71.56.0 u106096334 close "/pictures/thanks/Anne_Towne_logo.webp" bytes read 0 written 972
+Oct  7 16:45:15 10.71.56.0 u106096334 [10.71.56.0|put|0|972|0|0|0|2f70696374757265732f7468616e6b732f416e6e655f546f776e655f6c6f676f2e77656270|]
+Oct  7 16:45:15 10.71.56.0 u106096334 close "/pictures/thanks/Marvel_Mozhko_happiness.webp" bytes read 0 written 1536
+Oct  7 16:45:15 10.71.56.0 u106096334 [10.71.56.0|put|0|1536|0|0|0|2f70696374757265732f7468616e6b732f4d617276656c5f4d6f7a686b6f5f68617070696e6573732e77656270|]
+Oct  7 16:45:15 10.71.56.0 u106096334 open "/pictures/thanks/Rayna_Bauman_friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:15 10.71.56.0 u106096334 open "/pictures/thanks/Ben_Kerckx_love.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:15 10.71.56.0 u106096334 close "/pictures/thanks/Rayna_Bauman_friendship.jpg" bytes read 0 written 24896
+Oct  7 16:45:15 10.71.56.0 u106096334 [10.71.56.0|put|0|24896|0|0|0|2f70696374757265732f7468616e6b732f5261796e615f4261756d616e5f667269656e64736869702e6a7067|]
+Oct  7 16:45:15 10.71.56.0 u106096334 close "/pictures/thanks/Ben_Kerckx_love.jpg" bytes read 0 written 9933
+Oct  7 16:45:15 10.71.56.0 u106096334 [10.71.56.0|put|0|9933|0|0|0|2f70696374757265732f7468616e6b732f42656e5f4b6572636b785f6c6f76652e6a7067|]
+Oct  7 16:45:15 10.71.56.0 u106096334 open "/pictures/thanks/Helena_Cuerva_peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:15 10.71.56.0 u106096334 open "/pictures/thanks/Jill_Wellington_freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:15 10.71.56.0 u106096334 close "/pictures/thanks/Helena_Cuerva_peace.jpg" bytes read 0 written 12792
+Oct  7 16:45:15 10.71.56.0 u106096334 [10.71.56.0|put|0|12792|0|0|0|2f70696374757265732f7468616e6b732f48656c656e615f4375657276615f70656163652e6a7067|]
+Oct  7 16:45:15 10.71.56.0 u106096334 close "/pictures/thanks/Jill_Wellington_freedom.jpg" bytes read 0 written 22143
+Oct  7 16:45:15 10.71.56.0 u106096334 [10.71.56.0|put|0|22143|0|0|0|2f70696374757265732f7468616e6b732f4a696c6c5f57656c6c696e67746f6e5f66726565646f6d2e6a7067|]
+Oct  7 16:45:15 10.71.56.0 u106096334 open "/pictures/thanks/Anke_Sundermeier_dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:15 10.71.56.0 u106096334 sent status No such file
+Oct  7 16:45:16 10.71.56.0 u106096334 close "/pictures/thanks/Anke_Sundermeier_dream.jpg" bytes read 0 written 13056
+Oct  7 16:45:16 10.71.56.0 u106096334 [10.71.56.0|put|1|13056|0|0|0|2f70696374757265732f7468616e6b732f416e6b655f53756e6465726d656965725f647265616d2e6a7067|]
+Oct  7 16:45:16 10.71.56.0 u106096334 mkdir name "/styles" mode 0777
+Oct  7 16:45:16 10.71.56.0 u106096334 [10.71.56.0|mkdir|0|0|511|0|0|2f7374796c6573|]
+Oct  7 16:45:16 10.71.56.0 u106096334 open "/styles/thanks.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:16 10.71.56.0 u106096334 open "/styles/header.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:16 10.71.56.0 u106096334 close "/styles/thanks.css" bytes read 0 written 1852
+Oct  7 16:45:16 10.71.56.0 u106096334 [10.71.56.0|put|0|1852|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  7 16:45:16 10.71.56.0 u106096334 close "/styles/header.css" bytes read 0 written 2046
+Oct  7 16:45:16 10.71.56.0 u106096334 [10.71.56.0|put|0|2046|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  7 16:45:16 10.71.56.0 u106096334 open "/styles/footer.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:16 10.71.56.0 u106096334 open "/styles/style.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:16 10.71.56.0 u106096334 close "/styles/footer.css" bytes read 0 written 474
+Oct  7 16:45:16 10.71.56.0 u106096334 [10.71.56.0|put|0|474|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  7 16:45:17 10.71.56.0 u106096334 close "/styles/style.css" bytes read 0 written 427
+Oct  7 16:45:17 10.71.56.0 u106096334 [10.71.56.0|put|1|427|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  7 16:45:17 10.71.56.0 u106096334 open "/styles/poem.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:17 10.71.56.0 u106096334 open "/styles/index.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:17 10.71.56.0 u106096334 close "/styles/poem.css" bytes read 0 written 4086
+Oct  7 16:45:17 10.71.56.0 u106096334 [10.71.56.0|put|0|4086|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  7 16:45:17 10.71.56.0 u106096334 close "/styles/index.css" bytes read 0 written 1763
+Oct  7 16:45:17 10.71.56.0 u106096334 [10.71.56.0|put|0|1763|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  7 16:45:17 10.71.56.0 u106096334 open "/styles/bio.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:17 10.71.56.0 u106096334 open "/styles/poems.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 16:45:17 10.71.56.0 u106096334 close "/styles/bio.css" bytes read 0 written 4428
+Oct  7 16:45:17 10.71.56.0 u106096334 [10.71.56.0|put|0|4428|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  7 16:45:17 10.71.56.0 u106096334 close "/styles/poems.css" bytes read 0 written 2877
+Oct  7 16:45:17 10.71.56.0 u106096334 [10.71.56.0|put|0|2877|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  7 16:45:32 10.71.56.0 u106096334 remove name "/pictures/easter/thomas.png"
+Oct  7 16:45:32 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f74686f6d61732e706e67|]
+Oct  7 16:45:32 10.71.56.0 u106096334 remove name "/pictures/easter/malik.png"
+Oct  7 16:45:32 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f6d616c696b2e706e67|]
+Oct  7 16:45:32 10.71.56.0 u106096334 remove name "/pictures/easter/nicolas.jpg"
+Oct  7 16:45:32 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f6e69636f6c61732e6a7067|]
+Oct  7 16:45:32 10.71.56.0 u106096334 remove name "/pictures/easter/loic.png"
+Oct  7 16:45:32 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f6c6f69632e706e67|]
+Oct  7 16:45:32 10.71.56.0 u106096334 remove name "/pictures/easter/maxime.jpg"
+Oct  7 16:45:32 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f6d6178696d652e6a7067|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/giovanny.png"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f67696f76616e6e792e706e67|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/Screenshot_2021-09-21-22-37-45-00_254de13a4bc8758c9908fff1f73e3725.jpg"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f53637265656e73686f745f323032312d30392d32312d32322d33372d34352d30305f32353464653133613462633837353863393930386666663166373365333732352e6a7067|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/leo.png"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f6c656f2e706e67|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/julien.jpg"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f6a756c69656e2e6a7067|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/Screenshot_2021-09-21-22-51-41-67_a23b203fd3aafc6dcb84e438dda678b6.png"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f53637265656e73686f745f323032312d30392d32312d32322d35312d34312d36375f61323362323033666433616166633664636238346534333864646136373862362e706e67|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/cecile.jpg"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f636563696c652e6a7067|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/lionnel.jpg"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f6c696f6e6e656c2e6a7067|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/charlie.png"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f636861726c69652e706e67|]
+Oct  7 16:45:33 10.71.56.0 u106096334 remove name "/pictures/easter/Screenshot_2021-09-21-22-18-25-97_a23b203fd3aafc6dcb84e438dda678b6.png"
+Oct  7 16:45:33 10.71.56.0 u106096334 [10.71.56.0|rm|0|0|0|0|0|2f70696374757265732f6561737465722f53637265656e73686f745f323032312d30392d32312d32322d31382d32352d39375f61323362323033666433616166633664636238346534333864646136373862362e706e67|]
+Oct  7 16:45:34 10.71.56.0 u106096334 rmdir name "/pictures/easter"
+Oct  7 16:45:34 10.71.56.0 u106096334 [10.71.56.0|rmdir|0|0|0|0|0|2f70696374757265732f656173746572|]
+Oct  7 16:45:37 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 37474
+Oct  7 16:45:37 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  7 16:45:37 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  7 16:45:37 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  7 16:45:37 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 14046
+Oct  7 16:45:37 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 37476
+Oct  7 16:58:57 10.71.57.0 tmp106096334-7033 Connection from 10.71.57.0 port 16208 on 82.165.88.113 port 22
+Oct  7 16:58:57 10.71.57.0 tmp106096334-7033 Accepted password for tmp106096334-7033 from 10.71.57.0 port 16208 ssh2
+Oct  7 16:58:57 10.71.57.0 tmp106096334-7033 Starting session: subsystem 'sftp' for tmp106096334-7033 from 10.71.57.0 port 16208 id 0
+Oct  7 16:58:57 10.71.57.0 tmp106096334-7033 session opened for local user tmp106096334-7033 from [10.71.57.0]
+Oct  7 16:59:07 10.71.57.0 tmp106096334-7033 open "/assets/class/Query.php" flags READ mode 0666
+Oct  7 16:59:07 10.71.57.0 tmp106096334-7033 close "/assets/class/Query.php" bytes read 476 written 0
+Oct  7 16:59:07 10.71.57.0 tmp106096334-7033 [10.71.57.0|get|0|476|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 16:59:10 10.71.57.0 tmp106096334-6434 Connection from 10.71.57.0 port 38842 on 82.165.88.113 port 22
+Oct  7 16:59:10 10.71.57.0 tmp106096334-6434 Accepted password for tmp106096334-6434 from 10.71.57.0 port 38842 ssh2
+Oct  7 16:59:40 10.71.57.0 tmp106096334-7033 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 16:59:40 10.71.57.0 tmp106096334-7033 close "/assets/class/Query.php" bytes read 0 written 501
+Oct  7 16:59:40 10.71.57.0 tmp106096334-7033 [10.71.57.0|put|0|501|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 17:00:13 10.71.57.0 tmp106096334-7033 open "/assets/class/Query.php" flags READ mode 0666
+Oct  7 17:00:13 10.71.57.0 tmp106096334-7033 close "/assets/class/Query.php" bytes read 501 written 0
+Oct  7 17:00:13 10.71.57.0 tmp106096334-7033 [10.71.57.0|get|0|501|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 17:03:14 10.71.57.0 tmp106096334-7033 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 17:03:14 10.71.57.0 tmp106096334-7033 close "/assets/class/Query.php" bytes read 0 written 498
+Oct  7 17:03:14 10.71.57.0 tmp106096334-7033 [10.71.57.0|put|0|498|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 17:03:55 10.71.57.0 tmp106096334-7033 open "/bio.php" flags READ mode 0666
+Oct  7 17:03:55 10.71.57.0 tmp106096334-7033 close "/bio.php" bytes read 4771 written 0
+Oct  7 17:03:55 10.71.57.0 tmp106096334-7033 [10.71.57.0|get|0|4771|0|0|0|2f62696f2e706870|]
+Oct  7 17:06:38 10.71.57.0 tmp106096334-7033 open "/bio.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 17:06:38 10.71.57.0 tmp106096334-7033 close "/bio.php" bytes read 0 written 4781
+Oct  7 17:06:38 10.71.57.0 tmp106096334-7033 [10.71.57.0|put|0|4781|0|0|0|2f62696f2e706870|]
+Oct  7 17:13:28 10.71.56.0 u106096334 Connection from 10.71.56.0 port 29546 on 82.165.88.113 port 22
+Oct  7 17:13:28 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 29546 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  7 17:13:28 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 29546 ssh2
+Oct  7 17:13:29 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 29546 id 0
+Oct  7 17:13:29 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  7 17:14:02 10.71.56.0 u106096334 Connection from 10.71.56.0 port 18282 on 82.165.88.113 port 22
+Oct  7 17:14:02 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 18282 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  7 17:14:02 10.71.56.0 u106096334 Connection from 10.71.56.0 port 18288 on 82.165.88.113 port 22
+Oct  7 17:14:02 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 18288 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  7 17:14:02 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 18288 ssh2
+Oct  7 17:14:02 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 18282 ssh2
+Oct  7 17:14:02 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 18288 id 0
+Oct  7 17:14:02 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 18282 id 0
+Oct  7 17:14:02 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  7 17:14:02 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  7 17:14:07 10.71.56.0 u106096334 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 17:14:07 10.71.56.0 u106096334 open "/assets/class/SelectPoem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 17:14:07 10.71.56.0 u106096334 close "/assets/class/Query.php" bytes read 0 written 464
+Oct  7 17:14:07 10.71.56.0 u106096334 [10.71.56.0|put|0|464|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 17:14:07 10.71.56.0 u106096334 close "/assets/class/SelectPoem.php" bytes read 0 written 610
+Oct  7 17:14:07 10.71.56.0 u106096334 [10.71.56.0|put|0|610|0|0|0|2f6173736574732f636c6173732f53656c656374506f656d2e706870|]
+Oct  7 17:14:07 10.71.56.0 u106096334 open "/assets/class/StoreData.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  7 17:14:07 10.71.56.0 u106096334 close "/assets/class/StoreData.php" bytes read 0 written 506
+Oct  7 17:14:07 10.71.56.0 u106096334 [10.71.56.0|put|0|506|0|0|0|2f6173736574732f636c6173732f53746f7265446174612e706870|]
+Oct  7 17:14:27 10.71.57.0 tmp106096334-7033 open "/assets/class/Query.php" flags READ mode 0666
+Oct  7 17:14:27 10.71.57.0 tmp106096334-7033 close "/assets/class/Query.php" bytes read 464 written 0
+Oct  7 17:14:27 10.71.57.0 tmp106096334-7033 [10.71.57.0|get|0|464|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 17:15:08 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 18288
+Oct  7 17:15:08 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  7 17:15:08 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 18282
+Oct  7 17:15:08 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  7 17:15:13 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  7 17:15:13 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 29546
+Oct  7 17:16:02 10.71.57.0 tmp106096334-7033 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  7 17:16:02 10.71.57.0 tmp106096334-7033 close "/assets/class/Query.php" bytes read 0 written 498
+Oct  7 17:16:02 10.71.57.0 tmp106096334-7033 [10.71.57.0|put|0|498|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  7 18:07:19 10.71.57.0 tmp106096334-5357 Connection from 10.71.57.0 port 27180 on 82.165.88.113 port 22
+Oct  7 18:07:19 10.71.57.0 tmp106096334-5357 Accepted password for tmp106096334-5357 from 10.71.57.0 port 27180 ssh2
+Oct  7 18:07:19 10.71.57.0 tmp106096334-5357 Starting session: subsystem 'sftp' for tmp106096334-5357 from 10.71.57.0 port 27180 id 0
+Oct  7 18:07:19 10.71.57.0 tmp106096334-5357 session opened for local user tmp106096334-5357 from [10.71.57.0]
+Oct  7 18:16:26 10.71.57.0 tmp106096334-7033 Connection closed by 10.71.57.0 port 16208
+Oct  7 18:16:26 10.71.57.0 tmp106096334-6434 Connection closed by 10.71.57.0 port 38842
+Oct  7 18:16:26 10.71.57.0 tmp106096334-7033 session closed for local user tmp106096334-7033 from [10.71.57.0]
+Oct  7 19:13:55 10.71.57.0 tmp106096334-5357 session closed for local user tmp106096334-5357 from [10.71.57.0]
+Oct  7 19:13:55 10.71.57.0 tmp106096334-5357 Connection closed by 10.71.57.0 port 27180
+Oct  8 07:50:24 10.71.57.0 u106096334 Connection from 10.71.57.0 port 39750 on 82.165.88.113 port 22
+Oct  8 07:50:26 10.71.57.0 u106096334 Failed publickey for u106096334 from 10.71.57.0 port 39750 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 07:50:26 10.71.57.0 u106096334 Accepted password for u106096334 from 10.71.57.0 port 39750 ssh2
+Oct  8 07:50:26 10.71.57.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.57.0 port 39750 id 0
+Oct  8 07:50:26 10.71.57.0 u106096334 session opened for local user u106096334 from [10.71.57.0]
+Oct  8 07:50:39 10.71.57.0 u106096334 Connection from 10.71.57.0 port 55818 on 82.165.88.113 port 22
+Oct  8 07:50:41 10.71.57.0 u106096334 Failed publickey for u106096334 from 10.71.57.0 port 55818 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 07:50:40 10.71.57.0 u106096334 Connection from 10.71.57.0 port 55820 on 82.165.88.113 port 22
+Oct  8 07:50:41 10.71.57.0 u106096334 Failed publickey for u106096334 from 10.71.57.0 port 55820 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 07:50:42 10.71.57.0 u106096334 Accepted password for u106096334 from 10.71.57.0 port 55820 ssh2
+Oct  8 07:50:42 10.71.57.0 u106096334 Accepted password for u106096334 from 10.71.57.0 port 55818 ssh2
+Oct  8 07:50:43 10.71.57.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.57.0 port 55818 id 0
+Oct  8 07:50:43 10.71.57.0 u106096334 session opened for local user u106096334 from [10.71.57.0]
+Oct  8 07:50:44 10.71.57.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.57.0 port 55820 id 0
+Oct  8 07:50:44 10.71.57.0 u106096334 session opened for local user u106096334 from [10.71.57.0]
+Oct  8 07:50:52 10.71.57.0 u106096334 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:50:52 10.71.57.0 u106096334 open "/bio.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:50:54 10.71.57.0 u106096334 close "/bio.php" bytes read 0 written 4803
+Oct  8 07:50:54 10.71.57.0 u106096334 [10.71.57.0|put|2|4803|0|0|0|2f62696f2e706870|]
+Oct  8 07:50:54 10.71.57.0 u106096334 close "/index.php" bytes read 0 written 1642
+Oct  8 07:50:54 10.71.57.0 u106096334 [10.71.57.0|put|2|1642|0|0|0|2f696e6465782e706870|]
+Oct  8 07:50:54 10.71.57.0 u106096334 open "/poem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:50:54 10.71.57.0 u106096334 open "/poems.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:50:55 10.71.57.0 u106096334 close "/poem.php" bytes read 0 written 2453
+Oct  8 07:50:55 10.71.57.0 u106096334 [10.71.57.0|put|1|2453|0|0|0|2f706f656d2e706870|]
+Oct  8 07:50:55 10.71.57.0 u106096334 close "/poems.php" bytes read 0 written 1360
+Oct  8 07:50:55 10.71.57.0 u106096334 [10.71.57.0|put|1|1360|0|0|0|2f706f656d732e706870|]
+Oct  8 07:50:55 10.71.57.0 u106096334 open "/script.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:50:55 10.71.57.0 u106096334 open "/thanks.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:50:56 10.71.57.0 u106096334 close "/script.js" bytes read 0 written 774
+Oct  8 07:50:56 10.71.57.0 u106096334 [10.71.57.0|put|1|774|0|0|0|2f7363726970742e6a73|]
+Oct  8 07:50:56 10.71.57.0 u106096334 close "/thanks.php" bytes read 0 written 4014
+Oct  8 07:50:56 10.71.57.0 u106096334 [10.71.57.0|put|1|4014|0|0|0|2f7468616e6b732e706870|]
+Oct  8 07:51:01 10.71.57.0 u106096334 open "/assets/footer.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:01 10.71.57.0 u106096334 open "/assets/header.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:02 10.71.57.0 u106096334 close "/assets/footer.php" bytes read 0 written 198
+Oct  8 07:51:02 10.71.57.0 u106096334 [10.71.57.0|put|1|198|0|0|0|2f6173736574732f666f6f7465722e706870|]
+Oct  8 07:51:02 10.71.57.0 u106096334 close "/assets/header.php" bytes read 0 written 1468
+Oct  8 07:51:02 10.71.57.0 u106096334 [10.71.57.0|put|1|1468|0|0|0|2f6173736574732f6865616465722e706870|]
+Oct  8 07:51:13 10.71.57.0 u106096334 open "/assets/class/SelectPoem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:13 10.71.57.0 u106096334 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:17 10.71.57.0 u106096334 close "/assets/class/SelectPoem.php" bytes read 0 written 609
+Oct  8 07:51:17 10.71.57.0 u106096334 [10.71.57.0|put|4|609|0|0|0|2f6173736574732f636c6173732f53656c656374506f656d2e706870|]
+Oct  8 07:51:17 10.71.57.0 u106096334 close "/assets/class/Query.php" bytes read 0 written 484
+Oct  8 07:51:17 10.71.57.0 u106096334 [10.71.57.0|put|4|484|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  8 07:51:19 10.71.57.0 u106096334 open "/assets/class/StoreData.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:21 10.71.57.0 u106096334 close "/assets/class/StoreData.php" bytes read 0 written 507
+Oct  8 07:51:21 10.71.57.0 u106096334 [10.71.57.0|put|2|507|0|0|0|2f6173736574732f636c6173732f53746f7265446174612e706870|]
+Oct  8 07:51:34 10.71.57.0 u106096334 open "/functions/getPoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:34 10.71.57.0 u106096334 open "/functions/getPoemsKey.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:36 10.71.57.0 u106096334 close "/functions/getPoem.js" bytes read 0 written 322
+Oct  8 07:51:36 10.71.57.0 u106096334 [10.71.57.0|put|2|322|0|0|0|2f66756e6374696f6e732f676574506f656d2e6a73|]
+Oct  8 07:51:38 10.71.57.0 u106096334 close "/functions/getPoemsKey.js" bytes read 0 written 6394
+Oct  8 07:51:38 10.71.57.0 u106096334 [10.71.57.0|put|4|6394|0|0|0|2f66756e6374696f6e732f676574506f656d734b65792e6a73|]
+Oct  8 07:51:40 10.71.57.0 u106096334 open "/functions/injectPoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:41 10.71.57.0 u106096334 open "/functions/evaluatePoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:51:42 10.71.57.0 u106096334 close "/functions/injectPoem.js" bytes read 0 written 277
+Oct  8 07:51:42 10.71.57.0 u106096334 [10.71.57.0|put|2|277|0|0|0|2f66756e6374696f6e732f696e6a656374506f656d2e6a73|]
+Oct  8 07:51:43 10.71.57.0 u106096334 close "/functions/evaluatePoem.js" bytes read 0 written 480
+Oct  8 07:51:43 10.71.57.0 u106096334 [10.71.57.0|put|2|480|0|0|0|2f66756e6374696f6e732f6576616c75617465506f656d2e6a73|]
+Oct  8 07:52:08 10.71.57.0 u106096334 open "/pictures/Feather.cur" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:52:08 10.71.57.0 u106096334 open "/pictures/jaime.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:52:25 10.71.57.0 u106096334 close "/pictures/Feather.cur" bytes read 0 written 13942
+Oct  8 07:52:25 10.71.57.0 u106096334 [10.71.57.0|put|17|13942|0|0|0|2f70696374757265732f466561746865722e637572|]
+Oct  8 07:52:27 10.71.57.0 u106096334 close "/pictures/jaime.jpg" bytes read 0 written 33439
+Oct  8 07:52:27 10.71.57.0 u106096334 [10.71.57.0|put|19|33439|0|0|0|2f70696374757265732f6a61696d652e6a7067|]
+Oct  8 07:52:27 10.71.57.0 u106096334 open "/pictures/dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:52:28 10.71.57.0 u106096334 open "/pictures/logo.svg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:52:48 10.71.57.0 u106096334 close "/pictures/logo.svg" bytes read 0 written 168449
+Oct  8 07:52:48 10.71.57.0 u106096334 [10.71.57.0|put|20|168449|0|0|0|2f70696374757265732f6c6f676f2e737667|]
+Oct  8 07:52:48 10.71.57.0 u106096334 close "/pictures/dream.jpg" bytes read 0 written 249218
+Oct  8 07:52:48 10.71.57.0 u106096334 [10.71.57.0|put|21|249218|0|0|0|2f70696374757265732f647265616d2e6a7067|]
+Oct  8 07:52:49 10.71.57.0 u106096334 open "/pictures/img_asso.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:52:49 10.71.57.0 u106096334 open "/pictures/karisko.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:52:49 10.71.57.0 u106096334 close "/pictures/img_asso.jpg" bytes read 0 written 11277
+Oct  8 07:52:49 10.71.57.0 u106096334 [10.71.57.0|put|0|11277|0|0|0|2f70696374757265732f696d675f6173736f2e6a7067|]
+Oct  8 07:52:54 10.71.57.0 u106096334 close "/pictures/karisko.png" bytes read 0 written 73287
+Oct  8 07:52:54 10.71.57.0 u106096334 [10.71.57.0|put|5|73287|0|0|0|2f70696374757265732f6b617269736b6f2e706e67|]
+Oct  8 07:52:57 10.71.57.0 u106096334 open "/pictures/fond.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:53:02 10.71.57.0 u106096334 open "/pictures/peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:53:39 10.71.57.0 u106096334 close "/pictures/fond.jpg" bytes read 0 written 850304
+Oct  8 07:53:39 10.71.57.0 u106096334 [10.71.57.0|put|42|850304|0|0|0|2f70696374757265732f666f6e642e6a7067|]
+Oct  8 07:53:39 10.71.57.0 u106096334 close "/pictures/peace.jpg" bytes read 0 written 332822
+Oct  8 07:53:39 10.71.57.0 u106096334 [10.71.57.0|put|37|332822|0|0|0|2f70696374757265732f70656163652e6a7067|]
+Oct  8 07:53:40 10.71.57.0 u106096334 open "/pictures/cdle.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:53:40 10.71.57.0 u106096334 open "/pictures/friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:53:45 10.71.57.0 u106096334 close "/pictures/cdle.jpeg" bytes read 0 written 7325
+Oct  8 07:53:45 10.71.57.0 u106096334 [10.71.57.0|put|5|7325|0|0|0|2f70696374757265732f63646c652e6a706567|]
+Oct  8 07:53:55 10.71.57.0 u106096334 open "/pictures/freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:54:04 10.71.57.0 u106096334 close "/pictures/friendship.jpg" bytes read 0 written 355977
+Oct  8 07:54:04 10.71.57.0 u106096334 [10.71.57.0|put|24|355977|0|0|0|2f70696374757265732f667269656e64736869702e6a7067|]
+Oct  8 07:54:09 10.71.57.0 u106096334 close "/pictures/freedom.jpg" bytes read 0 written 206974
+Oct  8 07:54:09 10.71.57.0 u106096334 [10.71.57.0|put|14|206974|0|0|0|2f70696374757265732f66726565646f6d2e6a7067|]
+Oct  8 07:54:11 10.71.57.0 u106096334 open "/pictures/img_artist.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:54:14 10.71.57.0 u106096334 open "/pictures/love.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:54:22 10.71.57.0 u106096334 close "/pictures/img_artist.jpeg" bytes read 0 written 22701
+Oct  8 07:54:22 10.71.57.0 u106096334 [10.71.57.0|put|11|22701|0|0|0|2f70696374757265732f696d675f6172746973742e6a706567|]
+Oct  8 07:54:32 10.71.57.0 u106096334 open "/pictures/rapon.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:54:33 10.71.57.0 u106096334 close "/pictures/love.jpg" bytes read 0 written 305457
+Oct  8 07:54:33 10.71.57.0 u106096334 [10.71.57.0|put|19|305457|0|0|0|2f70696374757265732f6c6f76652e6a7067|]
+Oct  8 07:54:35 10.71.57.0 u106096334 close "/pictures/rapon.jpg" bytes read 0 written 28825
+Oct  8 07:54:35 10.71.57.0 u106096334 [10.71.57.0|put|3|28825|0|0|0|2f70696374757265732f7261706f6e2e6a7067|]
+Oct  8 07:54:36 10.71.57.0 u106096334 open "/pictures/happiness.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:54:49 10.71.57.0 u106096334 close "/pictures/happiness.jpg" bytes read 0 written 295067
+Oct  8 07:54:49 10.71.57.0 u106096334 [10.71.57.0|put|13|295067|0|0|0|2f70696374757265732f68617070696e6573732e6a7067|]
+Oct  8 07:55:13 10.71.57.0 u106096334 open "/pictures/thanks/Anne_Towne_logo.webp" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:13 10.71.57.0 u106096334 open "/pictures/thanks/Marvel_Mozhko_happiness.webp" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:14 10.71.57.0 u106096334 close "/pictures/thanks/Anne_Towne_logo.webp" bytes read 0 written 972
+Oct  8 07:55:14 10.71.57.0 u106096334 [10.71.57.0|put|1|972|0|0|0|2f70696374757265732f7468616e6b732f416e6e655f546f776e655f6c6f676f2e77656270|]
+Oct  8 07:55:14 10.71.57.0 u106096334 close "/pictures/thanks/Marvel_Mozhko_happiness.webp" bytes read 0 written 1536
+Oct  8 07:55:14 10.71.57.0 u106096334 [10.71.57.0|put|1|1536|0|0|0|2f70696374757265732f7468616e6b732f4d617276656c5f4d6f7a686b6f5f68617070696e6573732e77656270|]
+Oct  8 07:55:24 10.71.57.0 u106096334 open "/pictures/thanks/Rayna_Bauman_friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:24 10.71.57.0 u106096334 open "/pictures/thanks/Ben_Kerckx_love.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:26 10.71.57.0 u106096334 close "/pictures/thanks/Ben_Kerckx_love.jpg" bytes read 0 written 9933
+Oct  8 07:55:26 10.71.57.0 u106096334 [10.71.57.0|put|2|9933|0|0|0|2f70696374757265732f7468616e6b732f42656e5f4b6572636b785f6c6f76652e6a7067|]
+Oct  8 07:55:28 10.71.57.0 u106096334 close "/pictures/thanks/Rayna_Bauman_friendship.jpg" bytes read 0 written 24896
+Oct  8 07:55:28 10.71.57.0 u106096334 [10.71.57.0|put|4|24896|0|0|0|2f70696374757265732f7468616e6b732f5261796e615f4261756d616e5f667269656e64736869702e6a7067|]
+Oct  8 07:55:35 10.71.57.0 u106096334 open "/pictures/thanks/Helena_Cuerva_peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:35 10.71.57.0 u106096334 open "/pictures/thanks/Jill_Wellington_freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:38 10.71.57.0 u106096334 close "/pictures/thanks/Helena_Cuerva_peace.jpg" bytes read 0 written 12792
+Oct  8 07:55:38 10.71.57.0 u106096334 [10.71.57.0|put|3|12792|0|0|0|2f70696374757265732f7468616e6b732f48656c656e615f4375657276615f70656163652e6a7067|]
+Oct  8 07:55:39 10.71.57.0 u106096334 close "/pictures/thanks/Jill_Wellington_freedom.jpg" bytes read 0 written 22143
+Oct  8 07:55:39 10.71.57.0 u106096334 [10.71.57.0|put|4|22143|0|0|0|2f70696374757265732f7468616e6b732f4a696c6c5f57656c6c696e67746f6e5f66726565646f6d2e6a7067|]
+Oct  8 07:55:39 10.71.57.0 u106096334 open "/pictures/thanks/Anke_Sundermeier_dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:42 10.71.57.0 u106096334 close "/pictures/thanks/Anke_Sundermeier_dream.jpg" bytes read 0 written 13056
+Oct  8 07:55:42 10.71.57.0 u106096334 [10.71.57.0|put|3|13056|0|0|0|2f70696374757265732f7468616e6b732f416e6b655f53756e6465726d656965725f647265616d2e6a7067|]
+Oct  8 07:55:52 10.71.57.0 u106096334 open "/styles/header.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:52 10.71.57.0 u106096334 open "/styles/thanks.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:55 10.71.57.0 u106096334 close "/styles/header.css" bytes read 0 written 1840
+Oct  8 07:55:55 10.71.57.0 u106096334 [10.71.57.0|put|3|1840|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  8 07:55:55 10.71.57.0 u106096334 close "/styles/thanks.css" bytes read 0 written 1852
+Oct  8 07:55:55 10.71.57.0 u106096334 [10.71.57.0|put|3|1852|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  8 07:55:56 10.71.57.0 u106096334 open "/styles/footer.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:57 10.71.57.0 u106096334 open "/styles/style.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:55:59 10.71.57.0 u106096334 close "/styles/footer.css" bytes read 0 written 413
+Oct  8 07:55:59 10.71.57.0 u106096334 [10.71.57.0|put|3|413|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  8 07:55:59 10.71.57.0 u106096334 close "/styles/style.css" bytes read 0 written 427
+Oct  8 07:55:59 10.71.57.0 u106096334 [10.71.57.0|put|2|427|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  8 07:56:08 10.71.57.0 u106096334 open "/styles/poem.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:56:08 10.71.57.0 u106096334 open "/styles/index.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:56:10 10.71.57.0 u106096334 close "/styles/poem.css" bytes read 0 written 4396
+Oct  8 07:56:10 10.71.57.0 u106096334 [10.71.57.0|put|2|4396|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  8 07:56:10 10.71.57.0 u106096334 close "/styles/index.css" bytes read 0 written 1767
+Oct  8 07:56:10 10.71.57.0 u106096334 [10.71.57.0|put|2|1767|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  8 07:56:10 10.71.57.0 u106096334 open "/styles/poems.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:56:10 10.71.57.0 u106096334 open "/styles/bio.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 07:56:11 10.71.57.0 u106096334 close "/styles/bio.css" bytes read 0 written 4428
+Oct  8 07:56:11 10.71.57.0 u106096334 [10.71.57.0|put|1|4428|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  8 07:56:11 10.71.57.0 u106096334 close "/styles/poems.css" bytes read 0 written 2903
+Oct  8 07:56:11 10.71.57.0 u106096334 [10.71.57.0|put|1|2903|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  8 07:57:12 10.71.57.0 u106096334 Connection closed by 10.71.57.0 port 55820
+Oct  8 07:57:12 10.71.57.0 u106096334 session closed for local user u106096334 from [10.71.57.0]
+Oct  8 07:57:12 10.71.57.0 u106096334 Connection closed by 10.71.57.0 port 55818
+Oct  8 07:57:12 10.71.57.0 u106096334 session closed for local user u106096334 from [10.71.57.0]
+Oct  8 08:08:18 10.71.57.0 u106096334 Connection closed by 10.71.57.0 port 39750
+Oct  8 08:08:18 10.71.57.0 u106096334 session closed for local user u106096334 from [10.71.57.0]
+Oct  8 08:08:19 10.71.57.0 u106096334 Connection from 10.71.57.0 port 59732 on 82.165.88.113 port 22
+Oct  8 08:08:19 10.71.57.0 u106096334 Failed publickey for u106096334 from 10.71.57.0 port 59732 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 08:08:19 10.71.57.0 u106096334 Accepted password for u106096334 from 10.71.57.0 port 59732 ssh2
+Oct  8 08:08:21 10.71.57.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.57.0 port 59732 id 0
+Oct  8 08:08:21 10.71.57.0 u106096334 session opened for local user u106096334 from [10.71.57.0]
+Oct  8 08:08:36 10.71.57.0 u106096334 Connection from 10.71.57.0 port 24894 on 82.165.88.113 port 22
+Oct  8 08:08:38 10.71.57.0 u106096334 Failed publickey for u106096334 from 10.71.57.0 port 24894 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 08:08:38 10.71.57.0 u106096334 Accepted password for u106096334 from 10.71.57.0 port 24894 ssh2
+Oct  8 08:08:40 10.71.57.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.57.0 port 24894 id 0
+Oct  8 08:08:40 10.71.57.0 u106096334 session opened for local user u106096334 from [10.71.57.0]
+Oct  8 08:08:36 10.71.57.0 u106096334 Connection from 10.71.57.0 port 24900 on 82.165.88.113 port 22
+Oct  8 08:08:42 10.71.57.0 u106096334 Failed publickey for u106096334 from 10.71.57.0 port 24900 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 08:08:43 10.71.57.0 u106096334 Accepted password for u106096334 from 10.71.57.0 port 24900 ssh2
+Oct  8 08:08:43 10.71.57.0 u106096334 open "/bio.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:08:43 10.71.57.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.57.0 port 24900 id 0
+Oct  8 08:08:43 10.71.57.0 u106096334 session opened for local user u106096334 from [10.71.57.0]
+Oct  8 08:08:43 10.71.57.0 u106096334 close "/bio.php" bytes read 0 written 4654
+Oct  8 08:08:43 10.71.57.0 u106096334 [10.71.57.0|put|0|4654|0|0|0|2f62696f2e706870|]
+Oct  8 08:08:44 10.71.57.0 u106096334 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:08:44 10.71.57.0 u106096334 open "/poem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:08:45 10.71.57.0 u106096334 close "/index.php" bytes read 0 written 1642
+Oct  8 08:08:45 10.71.57.0 u106096334 [10.71.57.0|put|1|1642|0|0|0|2f696e6465782e706870|]
+Oct  8 08:08:45 10.71.57.0 u106096334 close "/poem.php" bytes read 0 written 2453
+Oct  8 08:08:45 10.71.57.0 u106096334 [10.71.57.0|put|1|2453|0|0|0|2f706f656d2e706870|]
+Oct  8 08:08:45 10.71.57.0 u106096334 open "/poems.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:08:46 10.71.57.0 u106096334 close "/poems.php" bytes read 0 written 1360
+Oct  8 08:08:46 10.71.57.0 u106096334 [10.71.57.0|put|1|1360|0|0|0|2f706f656d732e706870|]
+Oct  8 08:08:46 10.71.57.0 u106096334 open "/thanks.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:08:47 10.71.57.0 u106096334 close "/thanks.php" bytes read 0 written 4014
+Oct  8 08:08:47 10.71.57.0 u106096334 [10.71.57.0|put|1|4014|0|0|0|2f7468616e6b732e706870|]
+Oct  8 08:08:49 10.71.57.0 u106096334 open "/script.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:08:49 10.71.57.0 u106096334 close "/script.js" bytes read 0 written 774
+Oct  8 08:08:49 10.71.57.0 u106096334 [10.71.57.0|put|0|774|0|0|0|2f7363726970742e6a73|]
+Oct  8 08:08:54 10.71.57.0 u106096334 open "/assets/header.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:08:54 10.71.57.0 u106096334 close "/assets/header.php" bytes read 0 written 1468
+Oct  8 08:08:54 10.71.57.0 u106096334 [10.71.57.0|put|0|1468|0|0|0|2f6173736574732f6865616465722e706870|]
+Oct  8 08:08:55 10.71.57.0 u106096334 open "/assets/footer.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:08:58 10.71.57.0 u106096334 close "/assets/footer.php" bytes read 0 written 198
+Oct  8 08:08:58 10.71.57.0 u106096334 [10.71.57.0|put|3|198|0|0|0|2f6173736574732f666f6f7465722e706870|]
+Oct  8 08:09:02 10.71.57.0 u106096334 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:02 10.71.57.0 u106096334 open "/assets/class/SelectPoem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:03 10.71.57.0 u106096334 close "/assets/class/SelectPoem.php" bytes read 0 written 609
+Oct  8 08:09:03 10.71.57.0 u106096334 [10.71.57.0|put|1|609|0|0|0|2f6173736574732f636c6173732f53656c656374506f656d2e706870|]
+Oct  8 08:09:03 10.71.57.0 u106096334 close "/assets/class/Query.php" bytes read 0 written 496
+Oct  8 08:09:03 10.71.57.0 u106096334 [10.71.57.0|put|1|496|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  8 08:09:03 10.71.57.0 u106096334 open "/assets/class/StoreData.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:04 10.71.57.0 u106096334 close "/assets/class/StoreData.php" bytes read 0 written 507
+Oct  8 08:09:04 10.71.57.0 u106096334 [10.71.57.0|put|1|507|0|0|0|2f6173736574732f636c6173732f53746f7265446174612e706870|]
+Oct  8 08:09:07 10.71.57.0 u106096334 open "/functions/getPoemsKey.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:07 10.71.57.0 u106096334 open "/functions/getPoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:07 10.71.57.0 u106096334 close "/functions/getPoemsKey.js" bytes read 0 written 6394
+Oct  8 08:09:07 10.71.57.0 u106096334 [10.71.57.0|put|0|6394|0|0|0|2f66756e6374696f6e732f676574506f656d734b65792e6a73|]
+Oct  8 08:09:07 10.71.57.0 u106096334 close "/functions/getPoem.js" bytes read 0 written 322
+Oct  8 08:09:07 10.71.57.0 u106096334 [10.71.57.0|put|0|322|0|0|0|2f66756e6374696f6e732f676574506f656d2e6a73|]
+Oct  8 08:09:07 10.71.57.0 u106096334 open "/functions/evaluatePoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:07 10.71.57.0 u106096334 open "/functions/injectPoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:08 10.71.57.0 u106096334 close "/functions/evaluatePoem.js" bytes read 0 written 480
+Oct  8 08:09:08 10.71.57.0 u106096334 [10.71.57.0|put|1|480|0|0|0|2f66756e6374696f6e732f6576616c75617465506f656d2e6a73|]
+Oct  8 08:09:08 10.71.57.0 u106096334 close "/functions/injectPoem.js" bytes read 0 written 277
+Oct  8 08:09:08 10.71.57.0 u106096334 [10.71.57.0|put|1|277|0|0|0|2f66756e6374696f6e732f696e6a656374506f656d2e6a73|]
+Oct  8 08:09:09 10.71.57.0 u106096334 open "/pictures/jaime.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:09 10.71.57.0 u106096334 open "/pictures/Feather.cur" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:10 10.71.57.0 u106096334 close "/pictures/Feather.cur" bytes read 0 written 13942
+Oct  8 08:09:10 10.71.57.0 u106096334 [10.71.57.0|put|1|13942|0|0|0|2f70696374757265732f466561746865722e637572|]
+Oct  8 08:09:11 10.71.57.0 u106096334 open "/pictures/dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:14 10.71.57.0 u106096334 close "/pictures/jaime.jpg" bytes read 0 written 33439
+Oct  8 08:09:14 10.71.57.0 u106096334 [10.71.57.0|put|5|33439|0|0|0|2f70696374757265732f6a61696d652e6a7067|]
+Oct  8 08:09:17 10.71.57.0 u106096334 open "/pictures/logo.svg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:20 10.71.57.0 u106096334 close "/pictures/dream.jpg" bytes read 0 written 249218
+Oct  8 08:09:20 10.71.57.0 u106096334 [10.71.57.0|put|9|249218|0|0|0|2f70696374757265732f647265616d2e6a7067|]
+Oct  8 08:09:21 10.71.57.0 u106096334 open "/pictures/img_asso.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:23 10.71.57.0 u106096334 close "/pictures/img_asso.jpg" bytes read 0 written 11277
+Oct  8 08:09:23 10.71.57.0 u106096334 [10.71.57.0|put|2|11277|0|0|0|2f70696374757265732f696d675f6173736f2e6a7067|]
+Oct  8 08:09:28 10.71.57.0 u106096334 open "/pictures/karisko.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:28 10.71.57.0 u106096334 close "/pictures/logo.svg" bytes read 0 written 168449
+Oct  8 08:09:28 10.71.57.0 u106096334 [10.71.57.0|put|11|168449|0|0|0|2f70696374757265732f6c6f676f2e737667|]
+Oct  8 08:09:31 10.71.57.0 u106096334 open "/pictures/fond.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:09:31 10.71.57.0 u106096334 close "/pictures/karisko.png" bytes read 0 written 73287
+Oct  8 08:09:31 10.71.57.0 u106096334 [10.71.57.0|put|3|73287|0|0|0|2f70696374757265732f6b617269736b6f2e706e67|]
+Oct  8 08:09:33 10.71.57.0 u106096334 open "/pictures/peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:10 10.71.57.0 u106096334 close "/pictures/fond.jpg" bytes read 0 written 850304
+Oct  8 08:10:10 10.71.57.0 u106096334 [10.71.57.0|put|39|850304|0|0|0|2f70696374757265732f666f6e642e6a7067|]
+Oct  8 08:10:10 10.71.57.0 u106096334 close "/pictures/peace.jpg" bytes read 0 written 332822
+Oct  8 08:10:10 10.71.57.0 u106096334 [10.71.57.0|put|37|332822|0|0|0|2f70696374757265732f70656163652e6a7067|]
+Oct  8 08:10:10 10.71.57.0 u106096334 open "/pictures/cdle.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:10 10.71.57.0 u106096334 open "/pictures/friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:17 10.71.57.0 u106096334 close "/pictures/cdle.jpeg" bytes read 0 written 7325
+Oct  8 08:10:17 10.71.57.0 u106096334 [10.71.57.0|put|7|7325|0|0|0|2f70696374757265732f63646c652e6a706567|]
+Oct  8 08:10:23 10.71.57.0 u106096334 open "/pictures/freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:24 10.71.57.0 u106096334 close "/pictures/friendship.jpg" bytes read 0 written 355977
+Oct  8 08:10:24 10.71.57.0 u106096334 [10.71.57.0|put|14|355977|0|0|0|2f70696374757265732f667269656e64736869702e6a7067|]
+Oct  8 08:10:30 10.71.57.0 u106096334 close "/pictures/freedom.jpg" bytes read 0 written 206974
+Oct  8 08:10:30 10.71.57.0 u106096334 [10.71.57.0|put|7|206974|0|0|0|2f70696374757265732f66726565646f6d2e6a7067|]
+Oct  8 08:10:30 10.71.57.0 u106096334 open "/pictures/img_artist.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:31 10.71.57.0 u106096334 close "/pictures/img_artist.jpeg" bytes read 0 written 22701
+Oct  8 08:10:31 10.71.57.0 u106096334 [10.71.57.0|put|1|22701|0|0|0|2f70696374757265732f696d675f6172746973742e6a706567|]
+Oct  8 08:10:32 10.71.57.0 u106096334 open "/pictures/love.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:42 10.71.57.0 u106096334 open "/pictures/rapon.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:43 10.71.57.0 u106096334 close "/pictures/love.jpg" bytes read 0 written 305457
+Oct  8 08:10:43 10.71.57.0 u106096334 [10.71.57.0|put|11|305457|0|0|0|2f70696374757265732f6c6f76652e6a7067|]
+Oct  8 08:10:43 10.71.57.0 u106096334 open "/pictures/happiness.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:53 10.71.57.0 u106096334 close "/pictures/rapon.jpg" bytes read 0 written 28825
+Oct  8 08:10:53 10.71.57.0 u106096334 [10.71.57.0|put|11|28825|0|0|0|2f70696374757265732f7261706f6e2e6a7067|]
+Oct  8 08:10:54 10.71.57.0 u106096334 close "/pictures/happiness.jpg" bytes read 0 written 295067
+Oct  8 08:10:54 10.71.57.0 u106096334 [10.71.57.0|put|11|295067|0|0|0|2f70696374757265732f68617070696e6573732e6a7067|]
+Oct  8 08:10:58 10.71.57.0 u106096334 open "/pictures/thanks/Anne_Towne_logo.webp" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:10:58 10.71.57.0 u106096334 open "/pictures/thanks/Marvel_Mozhko_happiness.webp" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:00 10.71.57.0 u106096334 close "/pictures/thanks/Anne_Towne_logo.webp" bytes read 0 written 972
+Oct  8 08:11:00 10.71.57.0 u106096334 [10.71.57.0|put|2|972|0|0|0|2f70696374757265732f7468616e6b732f416e6e655f546f776e655f6c6f676f2e77656270|]
+Oct  8 08:11:00 10.71.57.0 u106096334 close "/pictures/thanks/Marvel_Mozhko_happiness.webp" bytes read 0 written 1536
+Oct  8 08:11:00 10.71.57.0 u106096334 [10.71.57.0|put|2|1536|0|0|0|2f70696374757265732f7468616e6b732f4d617276656c5f4d6f7a686b6f5f68617070696e6573732e77656270|]
+Oct  8 08:11:08 10.71.57.0 u106096334 open "/pictures/thanks/Rayna_Bauman_friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:09 10.71.57.0 u106096334 close "/pictures/thanks/Rayna_Bauman_friendship.jpg" bytes read 0 written 24896
+Oct  8 08:11:09 10.71.57.0 u106096334 [10.71.57.0|put|1|24896|0|0|0|2f70696374757265732f7468616e6b732f5261796e615f4261756d616e5f667269656e64736869702e6a7067|]
+Oct  8 08:11:09 10.71.57.0 u106096334 open "/pictures/thanks/Ben_Kerckx_love.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:10 10.71.57.0 u106096334 close "/pictures/thanks/Ben_Kerckx_love.jpg" bytes read 0 written 9933
+Oct  8 08:11:10 10.71.57.0 u106096334 [10.71.57.0|put|1|9933|0|0|0|2f70696374757265732f7468616e6b732f42656e5f4b6572636b785f6c6f76652e6a7067|]
+Oct  8 08:11:11 10.71.57.0 u106096334 open "/pictures/thanks/Helena_Cuerva_peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:14 10.71.57.0 u106096334 close "/pictures/thanks/Helena_Cuerva_peace.jpg" bytes read 0 written 12792
+Oct  8 08:11:14 10.71.57.0 u106096334 [10.71.57.0|put|3|12792|0|0|0|2f70696374757265732f7468616e6b732f48656c656e615f4375657276615f70656163652e6a7067|]
+Oct  8 08:11:14 10.71.57.0 u106096334 open "/pictures/thanks/Jill_Wellington_freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:14 10.71.57.0 u106096334 open "/pictures/thanks/Anke_Sundermeier_dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:16 10.71.57.0 u106096334 close "/pictures/thanks/Jill_Wellington_freedom.jpg" bytes read 0 written 22143
+Oct  8 08:11:16 10.71.57.0 u106096334 [10.71.57.0|put|2|22143|0|0|0|2f70696374757265732f7468616e6b732f4a696c6c5f57656c6c696e67746f6e5f66726565646f6d2e6a7067|]
+Oct  8 08:11:16 10.71.57.0 u106096334 close "/pictures/thanks/Anke_Sundermeier_dream.jpg" bytes read 0 written 13056
+Oct  8 08:11:16 10.71.57.0 u106096334 [10.71.57.0|put|2|13056|0|0|0|2f70696374757265732f7468616e6b732f416e6b655f53756e6465726d656965725f647265616d2e6a7067|]
+Oct  8 08:11:18 10.71.57.0 u106096334 open "/styles/header.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:21 10.71.57.0 u106096334 close "/styles/header.css" bytes read 0 written 1840
+Oct  8 08:11:21 10.71.57.0 u106096334 [10.71.57.0|put|3|1840|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  8 08:11:21 10.71.57.0 u106096334 open "/styles/thanks.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:21 10.71.57.0 u106096334 close "/styles/thanks.css" bytes read 0 written 1852
+Oct  8 08:11:21 10.71.57.0 u106096334 [10.71.57.0|put|0|1852|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  8 08:11:21 10.71.57.0 u106096334 open "/styles/footer.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:22 10.71.57.0 u106096334 close "/styles/footer.css" bytes read 0 written 413
+Oct  8 08:11:22 10.71.57.0 u106096334 [10.71.57.0|put|1|413|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  8 08:11:22 10.71.57.0 u106096334 open "/styles/style.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:23 10.71.57.0 u106096334 open "/styles/poem.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:23 10.71.57.0 u106096334 close "/styles/poem.css" bytes read 0 written 4424
+Oct  8 08:11:23 10.71.57.0 u106096334 [10.71.57.0|put|0|4424|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  8 08:11:24 10.71.57.0 u106096334 close "/styles/style.css" bytes read 0 written 427
+Oct  8 08:11:24 10.71.57.0 u106096334 [10.71.57.0|put|2|427|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  8 08:11:26 10.71.57.0 u106096334 open "/styles/bio.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:26 10.71.57.0 u106096334 close "/styles/bio.css" bytes read 0 written 4408
+Oct  8 08:11:26 10.71.57.0 u106096334 [10.71.57.0|put|0|4408|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  8 08:11:27 10.71.57.0 u106096334 open "/styles/poems.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:28 10.71.57.0 u106096334 close "/styles/poems.css" bytes read 0 written 2903
+Oct  8 08:11:28 10.71.57.0 u106096334 [10.71.57.0|put|1|2903|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  8 08:11:35 10.71.57.0 u106096334 open "/styles/index.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:11:36 10.71.57.0 u106096334 close "/styles/index.css" bytes read 0 written 1767
+Oct  8 08:11:36 10.71.57.0 u106096334 [10.71.57.0|put|1|1767|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  8 08:16:37 10.71.57.0 u106096334 Connection closed by 10.71.57.0 port 24900
+Oct  8 08:16:37 10.71.57.0 u106096334 session closed for local user u106096334 from [10.71.57.0]
+Oct  8 08:16:47 10.71.57.0 u106096334 Connection closed by 10.71.57.0 port 59732
+Oct  8 08:16:47 10.71.57.0 u106096334 session closed for local user u106096334 from [10.71.57.0]
+Oct  8 08:16:49 10.71.57.0 u106096334 Connection closed by 10.71.57.0 port 24894
+Oct  8 08:16:49 10.71.57.0 u106096334 session closed for local user u106096334 from [10.71.57.0]
+Oct  8 08:58:56 10.71.56.0 u106096334 Connection from 10.71.56.0 port 47770 on 82.165.88.113 port 22
+Oct  8 08:58:57 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 47770 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 08:58:57 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 47770 ssh2
+Oct  8 08:58:57 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 47770 id 0
+Oct  8 08:58:57 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 08:59:02 10.71.56.0 u106096334 Connection from 10.71.56.0 port 53260 on 82.165.88.113 port 22
+Oct  8 08:59:02 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 53260 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 08:59:02 10.71.56.0 u106096334 Connection from 10.71.56.0 port 53256 on 82.165.88.113 port 22
+Oct  8 08:59:02 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 53256 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 08:59:02 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 53260 ssh2
+Oct  8 08:59:02 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 53256 ssh2
+Oct  8 08:59:02 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 53260 id 0
+Oct  8 08:59:02 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 08:59:02 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 53256 id 0
+Oct  8 08:59:02 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 08:59:03 10.71.56.0 u106096334 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:03 10.71.56.0 u106096334 close "/index.php" bytes read 0 written 1642
+Oct  8 08:59:03 10.71.56.0 u106096334 [10.71.56.0|put|0|1642|0|0|0|2f696e6465782e706870|]
+Oct  8 08:59:03 10.71.56.0 u106096334 open "/bio.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:03 10.71.56.0 u106096334 open "/poem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:03 10.71.56.0 u106096334 close "/bio.php" bytes read 0 written 4654
+Oct  8 08:59:03 10.71.56.0 u106096334 [10.71.56.0|put|0|4654|0|0|0|2f62696f2e706870|]
+Oct  8 08:59:03 10.71.56.0 u106096334 close "/poem.php" bytes read 0 written 2453
+Oct  8 08:59:03 10.71.56.0 u106096334 [10.71.56.0|put|0|2453|0|0|0|2f706f656d2e706870|]
+Oct  8 08:59:03 10.71.56.0 u106096334 open "/poems.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:04 10.71.56.0 u106096334 close "/poems.php" bytes read 0 written 1360
+Oct  8 08:59:04 10.71.56.0 u106096334 [10.71.56.0|put|1|1360|0|0|0|2f706f656d732e706870|]
+Oct  8 08:59:04 10.71.56.0 u106096334 open "/script.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:04 10.71.56.0 u106096334 open "/thanks.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:04 10.71.56.0 u106096334 close "/script.js" bytes read 0 written 774
+Oct  8 08:59:04 10.71.56.0 u106096334 [10.71.56.0|put|0|774|0|0|0|2f7363726970742e6a73|]
+Oct  8 08:59:04 10.71.56.0 u106096334 close "/thanks.php" bytes read 0 written 4014
+Oct  8 08:59:04 10.71.56.0 u106096334 [10.71.56.0|put|0|4014|0|0|0|2f7468616e6b732e706870|]
+Oct  8 08:59:05 10.71.56.0 u106096334 open "/assets/footer.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:05 10.71.56.0 u106096334 open "/assets/header.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:05 10.71.56.0 u106096334 close "/assets/footer.php" bytes read 0 written 198
+Oct  8 08:59:05 10.71.56.0 u106096334 [10.71.56.0|put|0|198|0|0|0|2f6173736574732f666f6f7465722e706870|]
+Oct  8 08:59:05 10.71.56.0 u106096334 close "/assets/header.php" bytes read 0 written 1468
+Oct  8 08:59:05 10.71.56.0 u106096334 [10.71.56.0|put|0|1468|0|0|0|2f6173736574732f6865616465722e706870|]
+Oct  8 08:59:05 10.71.56.0 u106096334 open "/assets/class/SelectPoem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:05 10.71.56.0 u106096334 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:05 10.71.56.0 u106096334 close "/assets/class/SelectPoem.php" bytes read 0 written 609
+Oct  8 08:59:05 10.71.56.0 u106096334 [10.71.56.0|put|0|609|0|0|0|2f6173736574732f636c6173732f53656c656374506f656d2e706870|]
+Oct  8 08:59:05 10.71.56.0 u106096334 close "/assets/class/Query.php" bytes read 0 written 496
+Oct  8 08:59:05 10.71.56.0 u106096334 [10.71.56.0|put|0|496|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  8 08:59:05 10.71.56.0 u106096334 open "/assets/class/StoreData.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:05 10.71.56.0 u106096334 close "/assets/class/StoreData.php" bytes read 0 written 507
+Oct  8 08:59:05 10.71.56.0 u106096334 [10.71.56.0|put|0|507|0|0|0|2f6173736574732f636c6173732f53746f7265446174612e706870|]
+Oct  8 08:59:05 10.71.56.0 u106096334 open "/functions/getPoemsKey.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:05 10.71.56.0 u106096334 open "/functions/getPoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:06 10.71.56.0 u106096334 close "/functions/getPoemsKey.js" bytes read 0 written 6394
+Oct  8 08:59:06 10.71.56.0 u106096334 [10.71.56.0|put|1|6394|0|0|0|2f66756e6374696f6e732f676574506f656d734b65792e6a73|]
+Oct  8 08:59:06 10.71.56.0 u106096334 close "/functions/getPoem.js" bytes read 0 written 322
+Oct  8 08:59:06 10.71.56.0 u106096334 [10.71.56.0|put|1|322|0|0|0|2f66756e6374696f6e732f676574506f656d2e6a73|]
+Oct  8 08:59:06 10.71.56.0 u106096334 open "/functions/injectPoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:06 10.71.56.0 u106096334 open "/functions/evaluatePoem.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:06 10.71.56.0 u106096334 close "/functions/injectPoem.js" bytes read 0 written 277
+Oct  8 08:59:06 10.71.56.0 u106096334 [10.71.56.0|put|0|277|0|0|0|2f66756e6374696f6e732f696e6a656374506f656d2e6a73|]
+Oct  8 08:59:06 10.71.56.0 u106096334 close "/functions/evaluatePoem.js" bytes read 0 written 480
+Oct  8 08:59:06 10.71.56.0 u106096334 [10.71.56.0|put|0|480|0|0|0|2f66756e6374696f6e732f6576616c75617465506f656d2e6a73|]
+Oct  8 08:59:06 10.71.56.0 u106096334 open "/pictures/jaime.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:06 10.71.56.0 u106096334 open "/pictures/Feather.cur" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:07 10.71.56.0 u106096334 close "/pictures/Feather.cur" bytes read 0 written 13942
+Oct  8 08:59:07 10.71.56.0 u106096334 [10.71.56.0|put|1|13942|0|0|0|2f70696374757265732f466561746865722e637572|]
+Oct  8 08:59:07 10.71.56.0 u106096334 close "/pictures/jaime.jpg" bytes read 0 written 33439
+Oct  8 08:59:07 10.71.56.0 u106096334 [10.71.56.0|put|1|33439|0|0|0|2f70696374757265732f6a61696d652e6a7067|]
+Oct  8 08:59:07 10.71.56.0 u106096334 open "/pictures/dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:07 10.71.56.0 u106096334 open "/pictures/logo.svg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:16 10.71.56.0 u106096334 close "/pictures/logo.svg" bytes read 0 written 168449
+Oct  8 08:59:16 10.71.56.0 u106096334 [10.71.56.0|put|9|168449|0|0|0|2f70696374757265732f6c6f676f2e737667|]
+Oct  8 08:59:17 10.71.56.0 u106096334 close "/pictures/dream.jpg" bytes read 0 written 249218
+Oct  8 08:59:17 10.71.56.0 u106096334 [10.71.56.0|put|10|249218|0|0|0|2f70696374757265732f647265616d2e6a7067|]
+Oct  8 08:59:18 10.71.56.0 u106096334 open "/pictures/img_asso.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:18 10.71.56.0 u106096334 open "/pictures/karisko.png" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:19 10.71.56.0 u106096334 close "/pictures/img_asso.jpg" bytes read 0 written 11277
+Oct  8 08:59:19 10.71.56.0 u106096334 [10.71.56.0|put|1|11277|0|0|0|2f70696374757265732f696d675f6173736f2e6a7067|]
+Oct  8 08:59:19 10.71.56.0 u106096334 close "/pictures/karisko.png" bytes read 0 written 73287
+Oct  8 08:59:19 10.71.56.0 u106096334 [10.71.56.0|put|1|73287|0|0|0|2f70696374757265732f6b617269736b6f2e706e67|]
+Oct  8 08:59:19 10.71.56.0 u106096334 open "/pictures/fond.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:19 10.71.56.0 u106096334 open "/pictures/peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:35 10.71.56.0 u106096334 close "/pictures/peace.jpg" bytes read 0 written 332822
+Oct  8 08:59:35 10.71.56.0 u106096334 [10.71.56.0|put|16|332822|0|0|0|2f70696374757265732f70656163652e6a7067|]
+Oct  8 08:59:35 10.71.56.0 u106096334 open "/pictures/cdle.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:35 10.71.56.0 u106096334 close "/pictures/cdle.jpeg" bytes read 0 written 7325
+Oct  8 08:59:35 10.71.56.0 u106096334 [10.71.56.0|put|0|7325|0|0|0|2f70696374757265732f63646c652e6a706567|]
+Oct  8 08:59:35 10.71.56.0 u106096334 open "/pictures/friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 08:59:59 10.71.56.0 u106096334 close "/pictures/friendship.jpg" bytes read 0 written 355977
+Oct  8 08:59:59 10.71.56.0 u106096334 [10.71.56.0|put|24|355977|0|0|0|2f70696374757265732f667269656e64736869702e6a7067|]
+Oct  8 08:59:59 10.71.56.0 u106096334 open "/pictures/freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:10 10.71.56.0 u106096334 close "/pictures/freedom.jpg" bytes read 0 written 206974
+Oct  8 09:00:10 10.71.56.0 u106096334 [10.71.56.0|put|11|206974|0|0|0|2f70696374757265732f66726565646f6d2e6a7067|]
+Oct  8 09:00:10 10.71.56.0 u106096334 open "/pictures/img_artist.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:11 10.71.56.0 u106096334 close "/pictures/fond.jpg" bytes read 0 written 850304
+Oct  8 09:00:11 10.71.56.0 u106096334 [10.71.56.0|put|52|850304|0|0|0|2f70696374757265732f666f6e642e6a7067|]
+Oct  8 09:00:13 10.71.56.0 u106096334 close "/pictures/img_artist.jpeg" bytes read 0 written 22701
+Oct  8 09:00:13 10.71.56.0 u106096334 [10.71.56.0|put|3|22701|0|0|0|2f70696374757265732f696d675f6172746973742e6a706567|]
+Oct  8 09:00:13 10.71.56.0 u106096334 open "/pictures/love.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:13 10.71.56.0 u106096334 open "/pictures/rapon.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:16 10.71.56.0 u106096334 close "/pictures/rapon.jpg" bytes read 0 written 28825
+Oct  8 09:00:16 10.71.56.0 u106096334 [10.71.56.0|put|3|28825|0|0|0|2f70696374757265732f7261706f6e2e6a7067|]
+Oct  8 09:00:16 10.71.56.0 u106096334 open "/pictures/happiness.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:25 10.71.57.0 tmp106096334-6174 Connection from 10.71.57.0 port 48384 on 82.165.88.113 port 22
+Oct  8 09:00:25 10.71.57.0 tmp106096334-6174 Accepted password for tmp106096334-6174 from 10.71.57.0 port 48384 ssh2
+Oct  8 09:00:25 10.71.57.0 tmp106096334-6174 Starting session: subsystem 'sftp' for tmp106096334-6174 from 10.71.57.0 port 48384 id 0
+Oct  8 09:00:25 10.71.57.0 tmp106096334-6174 session opened for local user tmp106096334-6174 from [10.71.57.0]
+Oct  8 09:00:29 10.71.56.0 u106096334 close "/pictures/happiness.jpg" bytes read 0 written 295067
+Oct  8 09:00:29 10.71.56.0 u106096334 [10.71.56.0|put|13|295067|0|0|0|2f70696374757265732f68617070696e6573732e6a7067|]
+Oct  8 09:00:32 10.71.56.0 u106096334 open "/pictures/thanks/Marvel_Mozhko_happiness.webp" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:34 10.71.57.0 tmp106096334-6174 open "/assets/class/Query.php" flags READ mode 0666
+Oct  8 09:00:34 10.71.57.0 tmp106096334-6174 close "/assets/class/Query.php" bytes read 496 written 0
+Oct  8 09:00:34 10.71.57.0 tmp106096334-6174 [10.71.57.0|get|0|496|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  8 09:00:35 10.71.56.0 u106096334 close "/pictures/thanks/Marvel_Mozhko_happiness.webp" bytes read 0 written 1536
+Oct  8 09:00:35 10.71.56.0 u106096334 [10.71.56.0|put|3|1536|0|0|0|2f70696374757265732f7468616e6b732f4d617276656c5f4d6f7a686b6f5f68617070696e6573732e77656270|]
+Oct  8 09:00:35 10.71.56.0 u106096334 open "/pictures/thanks/Anne_Towne_logo.webp" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:36 10.71.56.0 u106096334 close "/pictures/thanks/Anne_Towne_logo.webp" bytes read 0 written 972
+Oct  8 09:00:36 10.71.56.0 u106096334 [10.71.56.0|put|1|972|0|0|0|2f70696374757265732f7468616e6b732f416e6e655f546f776e655f6c6f676f2e77656270|]
+Oct  8 09:00:36 10.71.56.0 u106096334 open "/pictures/thanks/Rayna_Bauman_friendship.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:37 10.71.57.0 tmp106096334-6966 Connection from 10.71.57.0 port 64066 on 82.165.88.113 port 22
+Oct  8 09:00:37 10.71.57.0 tmp106096334-6966 Accepted password for tmp106096334-6966 from 10.71.57.0 port 64066 ssh2
+Oct  8 09:00:39 10.71.56.0 u106096334 close "/pictures/thanks/Rayna_Bauman_friendship.jpg" bytes read 0 written 24896
+Oct  8 09:00:39 10.71.56.0 u106096334 [10.71.56.0|put|3|24896|0|0|0|2f70696374757265732f7468616e6b732f5261796e615f4261756d616e5f667269656e64736869702e6a7067|]
+Oct  8 09:00:39 10.71.56.0 u106096334 open "/pictures/thanks/Ben_Kerckx_love.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:40 10.71.56.0 u106096334 close "/pictures/thanks/Ben_Kerckx_love.jpg" bytes read 0 written 9933
+Oct  8 09:00:40 10.71.56.0 u106096334 [10.71.56.0|put|1|9933|0|0|0|2f70696374757265732f7468616e6b732f42656e5f4b6572636b785f6c6f76652e6a7067|]
+Oct  8 09:00:40 10.71.56.0 u106096334 close "/pictures/love.jpg" bytes read 0 written 305457
+Oct  8 09:00:40 10.71.56.0 u106096334 [10.71.56.0|put|27|305457|0|0|0|2f70696374757265732f6c6f76652e6a7067|]
+Oct  8 09:00:40 10.71.56.0 u106096334 open "/pictures/thanks/Jill_Wellington_freedom.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:40 10.71.56.0 u106096334 open "/pictures/thanks/Helena_Cuerva_peace.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:41 10.71.56.0 u106096334 close "/pictures/thanks/Helena_Cuerva_peace.jpg" bytes read 0 written 12792
+Oct  8 09:00:41 10.71.56.0 u106096334 [10.71.56.0|put|1|12792|0|0|0|2f70696374757265732f7468616e6b732f48656c656e615f4375657276615f70656163652e6a7067|]
+Oct  8 09:00:41 10.71.56.0 u106096334 close "/pictures/thanks/Jill_Wellington_freedom.jpg" bytes read 0 written 22143
+Oct  8 09:00:41 10.71.56.0 u106096334 [10.71.56.0|put|1|22143|0|0|0|2f70696374757265732f7468616e6b732f4a696c6c5f57656c6c696e67746f6e5f66726565646f6d2e6a7067|]
+Oct  8 09:00:41 10.71.56.0 u106096334 open "/pictures/thanks/Anke_Sundermeier_dream.jpg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:42 10.71.56.0 u106096334 close "/pictures/thanks/Anke_Sundermeier_dream.jpg" bytes read 0 written 13056
+Oct  8 09:00:42 10.71.56.0 u106096334 [10.71.56.0|put|1|13056|0|0|0|2f70696374757265732f7468616e6b732f416e6b655f53756e6465726d656965725f647265616d2e6a7067|]
+Oct  8 09:00:42 10.71.56.0 u106096334 open "/styles/header.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:42 10.71.56.0 u106096334 open "/styles/thanks.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:42 10.71.56.0 u106096334 close "/styles/header.css" bytes read 0 written 1840
+Oct  8 09:00:42 10.71.56.0 u106096334 [10.71.56.0|put|0|1840|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  8 09:00:42 10.71.56.0 u106096334 close "/styles/thanks.css" bytes read 0 written 1852
+Oct  8 09:00:42 10.71.56.0 u106096334 [10.71.56.0|put|0|1852|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  8 09:00:42 10.71.56.0 u106096334 open "/styles/footer.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:42 10.71.56.0 u106096334 close "/styles/footer.css" bytes read 0 written 413
+Oct  8 09:00:42 10.71.56.0 u106096334 [10.71.56.0|put|0|413|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  8 09:00:42 10.71.56.0 u106096334 open "/styles/style.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:42 10.71.56.0 u106096334 close "/styles/style.css" bytes read 0 written 427
+Oct  8 09:00:42 10.71.56.0 u106096334 [10.71.56.0|put|0|427|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  8 09:00:42 10.71.56.0 u106096334 open "/styles/poem.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:43 10.71.56.0 u106096334 open "/styles/index.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:43 10.71.56.0 u106096334 close "/styles/poem.css" bytes read 0 written 4424
+Oct  8 09:00:43 10.71.56.0 u106096334 [10.71.56.0|put|1|4424|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  8 09:00:43 10.71.56.0 u106096334 close "/styles/index.css" bytes read 0 written 1735
+Oct  8 09:00:43 10.71.56.0 u106096334 [10.71.56.0|put|0|1735|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  8 09:00:43 10.71.56.0 u106096334 open "/styles/bio.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:44 10.71.56.0 u106096334 open "/styles/poems.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 09:00:44 10.71.56.0 u106096334 close "/styles/bio.css" bytes read 0 written 4408
+Oct  8 09:00:44 10.71.56.0 u106096334 [10.71.56.0|put|1|4408|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  8 09:00:44 10.71.56.0 u106096334 close "/styles/poems.css" bytes read 0 written 2903
+Oct  8 09:00:44 10.71.56.0 u106096334 [10.71.56.0|put|0|2903|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  8 09:01:18 10.71.57.0 tmp106096334-6174 open "/assets/class/Query.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 09:01:18 10.71.57.0 tmp106096334-6174 close "/assets/class/Query.php" bytes read 0 written 518
+Oct  8 09:01:18 10.71.57.0 tmp106096334-6174 [10.71.57.0|put|0|518|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  8 09:01:44 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 53256
+Oct  8 09:01:44 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 09:01:44 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 53260
+Oct  8 09:01:44 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 10:22:36 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 47770
+Oct  8 10:22:36 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 10:22:36 10.71.56.0 u106096334 Connection from 10.71.56.0 port 17966 on 82.165.88.113 port 22
+Oct  8 10:22:37 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 17966 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 10:22:37 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 17966 ssh2
+Oct  8 10:22:37 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 17966 id 0
+Oct  8 10:22:37 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 10:22:45 10.71.56.0 u106096334 Connection from 10.71.56.0 port 29094 on 82.165.88.113 port 22
+Oct  8 10:22:45 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 29094 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 10:22:45 10.71.56.0 u106096334 Connection from 10.71.56.0 port 29122 on 82.165.88.113 port 22
+Oct  8 10:22:45 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 29122 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 10:22:45 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 29094 ssh2
+Oct  8 10:22:45 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 29122 ssh2
+Oct  8 10:22:45 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 29094 id 0
+Oct  8 10:22:45 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 29122 id 0
+Oct  8 10:22:45 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 10:22:45 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 10:22:45 10.71.56.0 u106096334 open "/bio.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:45 10.71.56.0 u106096334 close "/bio.php" bytes read 0 written 4654
+Oct  8 10:22:45 10.71.56.0 u106096334 [10.71.56.0|put|0|4654|0|0|0|2f62696f2e706870|]
+Oct  8 10:22:45 10.71.56.0 u106096334 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:45 10.71.56.0 u106096334 close "/index.php" bytes read 0 written 1642
+Oct  8 10:22:45 10.71.56.0 u106096334 [10.71.56.0|put|0|1642|0|0|0|2f696e6465782e706870|]
+Oct  8 10:22:45 10.71.56.0 u106096334 open "/poem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:45 10.71.56.0 u106096334 close "/poem.php" bytes read 0 written 2453
+Oct  8 10:22:45 10.71.56.0 u106096334 [10.71.56.0|put|0|2453|0|0|0|2f706f656d2e706870|]
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/poems.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/script.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/poems.php" bytes read 0 written 1360
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|1|1360|0|0|0|2f706f656d732e706870|]
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/script.js" bytes read 0 written 774
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|0|774|0|0|0|2f7363726970742e6a73|]
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/thanks.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/thanks.php" bytes read 0 written 4014
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|0|4014|0|0|0|2f7468616e6b732e706870|]
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/styles/thanks.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/styles/header.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/styles/thanks.css" bytes read 0 written 1852
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|0|1852|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/styles/header.css" bytes read 0 written 1840
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|0|1840|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/styles/footer.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/styles/style.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/styles/footer.css" bytes read 0 written 413
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|0|413|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/styles/style.css" bytes read 0 written 427
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|0|427|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/styles/poem.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/styles/index.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/styles/poem.css" bytes read 0 written 4424
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|0|4424|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  8 10:22:46 10.71.56.0 u106096334 close "/styles/index.css" bytes read 0 written 1735
+Oct  8 10:22:46 10.71.56.0 u106096334 [10.71.56.0|put|0|1735|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/styles/bio.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:46 10.71.56.0 u106096334 open "/styles/poems.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:22:47 10.71.56.0 u106096334 close "/styles/bio.css" bytes read 0 written 4408
+Oct  8 10:22:47 10.71.56.0 u106096334 [10.71.56.0|put|1|4408|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  8 10:22:47 10.71.56.0 u106096334 close "/styles/poems.css" bytes read 0 written 2916
+Oct  8 10:22:47 10.71.56.0 u106096334 [10.71.56.0|put|1|2916|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  8 10:23:47 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 29122
+Oct  8 10:23:47 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 10:23:47 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 29094
+Oct  8 10:23:47 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 10:33:50 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 17966
+Oct  8 10:33:50 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 10:33:50 10.71.56.0 u106096334 Connection from 10.71.56.0 port 47052 on 82.165.88.113 port 22
+Oct  8 10:33:51 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 47052 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 10:33:51 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 47052 ssh2
+Oct  8 10:33:51 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 47052 id 0
+Oct  8 10:33:51 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 10:33:55 10.71.56.0 u106096334 Connection from 10.71.56.0 port 52284 on 82.165.88.113 port 22
+Oct  8 10:33:55 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 52284 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 10:33:55 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 52284 ssh2
+Oct  8 10:33:55 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 52284 id 0
+Oct  8 10:33:55 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 10:33:56 10.71.56.0 u106096334 Connection from 10.71.56.0 port 53342 on 82.165.88.113 port 22
+Oct  8 10:33:56 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 53342 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 10:33:56 10.71.56.0 u106096334 open "/styles/thanks.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:33:56 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 53342 ssh2
+Oct  8 10:33:56 10.71.56.0 u106096334 close "/styles/thanks.css" bytes read 0 written 1852
+Oct  8 10:33:56 10.71.56.0 u106096334 [10.71.56.0|put|0|1852|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  8 10:33:56 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 53342 id 0
+Oct  8 10:33:56 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 10:33:56 10.71.56.0 u106096334 open "/styles/footer.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:33:56 10.71.56.0 u106096334 close "/styles/footer.css" bytes read 0 written 475
+Oct  8 10:33:56 10.71.56.0 u106096334 [10.71.56.0|put|0|475|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  8 10:33:56 10.71.56.0 u106096334 open "/styles/style.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:33:56 10.71.56.0 u106096334 open "/styles/header.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:33:56 10.71.56.0 u106096334 close "/styles/style.css" bytes read 0 written 427
+Oct  8 10:33:56 10.71.56.0 u106096334 [10.71.56.0|put|0|427|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  8 10:33:57 10.71.56.0 u106096334 close "/styles/header.css" bytes read 0 written 1840
+Oct  8 10:33:57 10.71.56.0 u106096334 [10.71.56.0|put|1|1840|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  8 10:33:57 10.71.56.0 u106096334 open "/styles/poem.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:33:57 10.71.56.0 u106096334 open "/styles/index.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:33:57 10.71.56.0 u106096334 close "/styles/poem.css" bytes read 0 written 4424
+Oct  8 10:33:57 10.71.56.0 u106096334 [10.71.56.0|put|0|4424|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  8 10:33:57 10.71.56.0 u106096334 close "/styles/index.css" bytes read 0 written 1735
+Oct  8 10:33:57 10.71.56.0 u106096334 [10.71.56.0|put|0|1735|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  8 10:33:57 10.71.56.0 u106096334 open "/styles/bio.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:33:57 10.71.56.0 u106096334 close "/styles/bio.css" bytes read 0 written 4408
+Oct  8 10:33:57 10.71.56.0 u106096334 [10.71.56.0|put|0|4408|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  8 10:33:57 10.71.56.0 u106096334 open "/styles/poems.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 10:33:57 10.71.56.0 u106096334 close "/styles/poems.css" bytes read 0 written 2916
+Oct  8 10:33:57 10.71.56.0 u106096334 [10.71.56.0|put|0|2916|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  8 10:34:57 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 52284
+Oct  8 10:34:57 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 10:34:57 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 53342
+Oct  8 10:34:57 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 12:18:45 10.71.56.0 u106096334 Connection from 10.71.56.0 port 12474 on 82.165.88.113 port 22
+Oct  8 12:18:46 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 12474 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 12:18:45 10.71.56.0 u106096334 Connection from 10.71.56.0 port 12472 on 82.165.88.113 port 22
+Oct  8 12:18:46 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 12472 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 12:18:46 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 12474 ssh2
+Oct  8 12:18:46 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 12472 ssh2
+Oct  8 12:18:46 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 12472 id 0
+Oct  8 12:18:46 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 12474 id 0
+Oct  8 12:18:46 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 12:18:46 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 12:18:46 10.71.56.0 u106096334 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:46 10.71.56.0 u106096334 close "/index.php" bytes read 0 written 1642
+Oct  8 12:18:46 10.71.56.0 u106096334 [10.71.56.0|put|0|1642|0|0|0|2f696e6465782e706870|]
+Oct  8 12:18:46 10.71.56.0 u106096334 open "/bio.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:46 10.71.56.0 u106096334 close "/bio.php" bytes read 0 written 4654
+Oct  8 12:18:46 10.71.56.0 u106096334 [10.71.56.0|put|0|4654|0|0|0|2f62696f2e706870|]
+Oct  8 12:18:46 10.71.56.0 u106096334 open "/poem.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:46 10.71.56.0 u106096334 open "/poems.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:47 10.71.56.0 u106096334 close "/poem.php" bytes read 0 written 2453
+Oct  8 12:18:47 10.71.56.0 u106096334 [10.71.56.0|put|1|2453|0|0|0|2f706f656d2e706870|]
+Oct  8 12:18:47 10.71.56.0 u106096334 close "/poems.php" bytes read 0 written 1360
+Oct  8 12:18:47 10.71.56.0 u106096334 [10.71.56.0|put|1|1360|0|0|0|2f706f656d732e706870|]
+Oct  8 12:18:47 10.71.56.0 u106096334 open "/script.js" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:47 10.71.56.0 u106096334 close "/script.js" bytes read 0 written 774
+Oct  8 12:18:47 10.71.56.0 u106096334 [10.71.56.0|put|0|774|0|0|0|2f7363726970742e6a73|]
+Oct  8 12:18:47 10.71.56.0 u106096334 open "/thanks.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:47 10.71.56.0 u106096334 close "/thanks.php" bytes read 0 written 4014
+Oct  8 12:18:47 10.71.56.0 u106096334 [10.71.56.0|put|0|4014|0|0|0|2f7468616e6b732e706870|]
+Oct  8 12:18:47 10.71.56.0 u106096334 open "/styles/thanks.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:47 10.71.56.0 u106096334 open "/styles/header.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:47 10.71.56.0 u106096334 close "/styles/header.css" bytes read 0 written 1840
+Oct  8 12:18:47 10.71.56.0 u106096334 [10.71.56.0|put|0|1840|0|0|0|2f7374796c65732f6865616465722e637373|]
+Oct  8 12:18:47 10.71.56.0 u106096334 close "/styles/thanks.css" bytes read 0 written 1852
+Oct  8 12:18:47 10.71.56.0 u106096334 [10.71.56.0|put|0|1852|0|0|0|2f7374796c65732f7468616e6b732e637373|]
+Oct  8 12:18:48 10.71.56.0 u106096334 open "/styles/footer.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:48 10.71.56.0 u106096334 open "/styles/style.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:48 10.71.56.0 u106096334 close "/styles/footer.css" bytes read 0 written 475
+Oct  8 12:18:48 10.71.56.0 u106096334 [10.71.56.0|put|0|475|0|0|0|2f7374796c65732f666f6f7465722e637373|]
+Oct  8 12:18:48 10.71.56.0 u106096334 close "/styles/style.css" bytes read 0 written 427
+Oct  8 12:18:48 10.71.56.0 u106096334 [10.71.56.0|put|0|427|0|0|0|2f7374796c65732f7374796c652e637373|]
+Oct  8 12:18:48 10.71.56.0 u106096334 open "/styles/poem.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:48 10.71.56.0 u106096334 open "/styles/index.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:48 10.71.56.0 u106096334 close "/styles/index.css" bytes read 0 written 1735
+Oct  8 12:18:48 10.71.56.0 u106096334 [10.71.56.0|put|0|1735|0|0|0|2f7374796c65732f696e6465782e637373|]
+Oct  8 12:18:48 10.71.56.0 u106096334 close "/styles/poem.css" bytes read 0 written 4424
+Oct  8 12:18:48 10.71.56.0 u106096334 [10.71.56.0|put|0|4424|0|0|0|2f7374796c65732f706f656d2e637373|]
+Oct  8 12:18:48 10.71.56.0 u106096334 open "/styles/bio.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:48 10.71.56.0 u106096334 open "/styles/poems.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 12:18:48 10.71.56.0 u106096334 close "/styles/bio.css" bytes read 0 written 4408
+Oct  8 12:18:48 10.71.56.0 u106096334 [10.71.56.0|put|0|4408|0|0|0|2f7374796c65732f62696f2e637373|]
+Oct  8 12:18:48 10.71.56.0 u106096334 close "/styles/poems.css" bytes read 0 written 2916
+Oct  8 12:18:48 10.71.56.0 u106096334 [10.71.56.0|put|0|2916|0|0|0|2f7374796c65732f706f656d732e637373|]
+Oct  8 12:19:48 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 12474
+Oct  8 12:19:48 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 12:19:48 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 12472
+Oct  8 12:19:48 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 12:20:28 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 47052
+Oct  8 12:20:28 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 14:14:14 10.71.57.0 tmp106096334-1647 Connection from 10.71.57.0 port 24800 on 82.165.88.113 port 22
+Oct  8 14:14:14 10.71.57.0 tmp106096334-1647 Accepted password for tmp106096334-1647 from 10.71.57.0 port 24800 ssh2
+Oct  8 14:14:14 10.71.57.0 tmp106096334-1647 Starting session: subsystem 'sftp' for tmp106096334-1647 from 10.71.57.0 port 24800 id 0
+Oct  8 14:14:14 10.71.57.0 tmp106096334-1647 session opened for local user tmp106096334-1647 from [10.71.57.0]
+Oct  8 14:14:47 10.71.57.0 tmp106096334-1647 open "/logs/.htaccess" flags READ mode 0666
+Oct  8 14:14:49 10.71.57.0 tmp106096334-1647 close "/logs/.htaccess" bytes read 268 written 0
+Oct  8 14:14:49 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|2|268|0|0|0|2f6c6f67732f2e6874616363657373|]
+Oct  8 14:14:51 10.71.57.0 tmp106096334-3715 Connection from 10.71.57.0 port 25940 on 82.165.88.113 port 22
+Oct  8 14:14:52 10.71.57.0 tmp106096334-3715 Accepted password for tmp106096334-3715 from 10.71.57.0 port 25940 ssh2
+Oct  8 14:20:22 10.71.56.0 u106096334 Connection from 10.71.56.0 port 55332 on 82.165.88.113 port 22
+Oct  8 14:20:22 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 55332 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 14:20:22 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 55332 ssh2
+Oct  8 14:20:22 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 55332 id 0
+Oct  8 14:20:22 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 14:21:29 10.71.56.0 u106096334 Connection from 10.71.56.0 port 34242 on 82.165.88.113 port 22
+Oct  8 14:21:29 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 34242 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 14:21:29 10.71.56.0 u106096334 Connection from 10.71.56.0 port 34244 on 82.165.88.113 port 22
+Oct  8 14:21:29 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 34244 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 14:21:29 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 34242 ssh2
+Oct  8 14:21:29 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 34244 ssh2
+Oct  8 14:21:29 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 34242 id 0
+Oct  8 14:21:29 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 14:21:29 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 34244 id 0
+Oct  8 14:21:29 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 14:21:30 10.71.56.0 u106096334 open "/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 14:21:30 10.71.56.0 u106096334 close "/.htaccess" bytes read 0 written 167
+Oct  8 14:21:30 10.71.56.0 u106096334 [10.71.56.0|put|0|167|0|0|0|2f2e6874616363657373|]
+Oct  8 14:21:30 10.71.56.0 u106096334 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 14:21:30 10.71.56.0 u106096334 close "/error_404.php" bytes read 0 written 390
+Oct  8 14:21:30 10.71.56.0 u106096334 [10.71.56.0|put|0|390|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:21:54 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:21:54 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 390 written 0
+Oct  8 14:21:54 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|390|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:22:30 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 34242
+Oct  8 14:22:30 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 14:22:30 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 34244
+Oct  8 14:22:30 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 14:23:04 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:23:04 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 401
+Oct  8 14:23:04 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|401|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:24:04 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:24:04 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 401 written 0
+Oct  8 14:24:04 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|401|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:25:34 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:25:34 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 569
+Oct  8 14:25:34 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|569|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:26:11 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:26:11 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 569 written 0
+Oct  8 14:26:11 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|569|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:26:25 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:26:25 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 511
+Oct  8 14:26:25 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|511|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:26:30 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:26:30 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 511 written 0
+Oct  8 14:26:30 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|511|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:27:13 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:27:13 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 560
+Oct  8 14:27:13 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|560|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:27:17 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:27:17 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 560 written 0
+Oct  8 14:27:17 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|560|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:27:59 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:27:59 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 668
+Oct  8 14:27:59 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|668|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:28:42 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:28:42 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 668 written 0
+Oct  8 14:28:42 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|668|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:28:53 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:28:53 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 560
+Oct  8 14:28:53 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|560|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:29:05 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 14:29:05 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 55332
+Oct  8 14:38:06 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:38:06 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 560 written 0
+Oct  8 14:38:06 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|560|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:41:35 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:41:35 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 540
+Oct  8 14:41:35 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|540|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:41:42 10.71.56.0 u106096334 Connection from 10.71.56.0 port 60548 on 82.165.88.113 port 22
+Oct  8 14:41:42 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 60548 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 14:41:42 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 60548 ssh2
+Oct  8 14:41:42 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 60548 id 0
+Oct  8 14:41:42 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 14:42:09 10.71.56.0 u106096334 Connection from 10.71.56.0 port 38004 on 82.165.88.113 port 22
+Oct  8 14:42:09 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 38004 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 14:42:09 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 38004 ssh2
+Oct  8 14:42:09 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 38004 id 0
+Oct  8 14:42:09 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 14:42:09 10.71.56.0 u106096334 open "/pictures/404.jpeg" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 14:42:10 10.71.56.0 u106096334 close "/pictures/404.jpeg" bytes read 0 written 30732
+Oct  8 14:42:10 10.71.56.0 u106096334 [10.71.56.0|put|1|30732|0|0|0|2f70696374757265732f3430342e6a706567|]
+Oct  8 14:42:19 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:42:19 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 540 written 0
+Oct  8 14:42:19 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|540|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:42:24 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:42:24 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 541
+Oct  8 14:42:24 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|541|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:42:42 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:42:42 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 541 written 0
+Oct  8 14:42:42 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|541|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:43:10 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 38004
+Oct  8 14:43:10 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 14:43:24 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:43:24 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 590
+Oct  8 14:43:24 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|590|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:45:57 10.71.56.0 u106096334 Connection from 10.71.56.0 port 63890 on 82.165.88.113 port 22
+Oct  8 14:45:57 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 63890 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 14:45:57 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 63890 ssh2
+Oct  8 14:45:57 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 63890 id 0
+Oct  8 14:45:57 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 14:45:57 10.71.56.0 u106096334 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 14:45:58 10.71.56.0 u106096334 close "/styles/404.css" bytes read 0 written 81
+Oct  8 14:45:58 10.71.56.0 u106096334 [10.71.56.0|put|1|81|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:46:11 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:46:11 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 590 written 0
+Oct  8 14:46:11 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|590|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:46:19 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:46:19 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 529
+Oct  8 14:46:19 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|529|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 14:46:58 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 63890
+Oct  8 14:46:58 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 14:47:02 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:47:02 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 81 written 0
+Oct  8 14:47:02 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|81|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:47:21 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:47:21 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 83
+Oct  8 14:47:21 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|83|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:47:28 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:47:28 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 83 written 0
+Oct  8 14:47:28 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|83|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:47:38 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:47:38 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 84
+Oct  8 14:47:38 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|84|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:47:49 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:47:49 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 84 written 0
+Oct  8 14:47:49 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|84|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:47:58 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:47:58 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 85
+Oct  8 14:47:58 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|85|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:48:08 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:48:08 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 85 written 0
+Oct  8 14:48:08 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|85|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:48:15 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:48:15 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 84
+Oct  8 14:48:15 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|84|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:49:02 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:49:02 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 84 written 0
+Oct  8 14:49:02 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|84|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:49:33 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:49:33 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 90
+Oct  8 14:49:33 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|90|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:49:39 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:49:39 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 90 written 0
+Oct  8 14:49:39 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|90|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:49:46 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:49:46 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 84
+Oct  8 14:49:46 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|84|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:49:53 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:49:53 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 84 written 0
+Oct  8 14:49:53 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|84|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:50:00 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:50:00 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 83
+Oct  8 14:50:00 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|83|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:50:12 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:50:12 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 83 written 0
+Oct  8 14:50:12 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|83|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:50:38 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:50:38 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 105
+Oct  8 14:50:38 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|105|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:50:49 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:50:49 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 105 written 0
+Oct  8 14:50:49 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|105|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:51:03 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:51:03 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 82
+Oct  8 14:51:03 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|82|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:51:12 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:51:12 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 82 written 0
+Oct  8 14:51:12 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|82|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:51:34 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:51:34 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 128
+Oct  8 14:51:34 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|128|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:51:57 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:51:57 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 128 written 0
+Oct  8 14:51:57 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|128|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:52:10 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:52:10 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 126
+Oct  8 14:52:10 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|126|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:52:16 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:52:16 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 126 written 0
+Oct  8 14:52:16 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|126|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:52:27 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:52:27 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 128
+Oct  8 14:52:27 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|128|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:52:31 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:52:31 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 128 written 0
+Oct  8 14:52:31 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|128|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:53:27 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:53:27 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 162
+Oct  8 14:53:27 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|162|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:57:21 10.71.56.0 u106096334 Connection from 10.71.56.0 port 15650 on 82.165.88.113 port 22
+Oct  8 14:57:21 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 15650 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 14:57:21 10.71.56.0 u106096334 Connection from 10.71.56.0 port 15652 on 82.165.88.113 port 22
+Oct  8 14:57:21 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 15652 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 14:57:21 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 15652 ssh2
+Oct  8 14:57:21 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 15650 ssh2
+Oct  8 14:57:21 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 15652 id 0
+Oct  8 14:57:21 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 15650 id 0
+Oct  8 14:57:21 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 14:57:21 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 14:57:21 10.71.56.0 u106096334 open "/pictures/4042.gif" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 14:57:21 10.71.56.0 u106096334 open "/pictures/404.gif" flags WRITE,CREATE,TRUNCATE mode 0100664
+Oct  8 14:57:22 10.71.56.0 u106096334 close "/pictures/4042.gif" bytes read 0 written 54874
+Oct  8 14:57:22 10.71.56.0 u106096334 [10.71.56.0|put|1|54874|0|0|0|2f70696374757265732f343034322e676966|]
+Oct  8 14:57:26 10.71.56.0 u106096334 close "/pictures/404.gif" bytes read 0 written 1703397
+Oct  8 14:57:26 10.71.56.0 u106096334 [10.71.56.0|put|5|1703397|0|0|0|2f70696374757265732f3430342e676966|]
+Oct  8 14:57:42 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:57:42 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 162 written 0
+Oct  8 14:57:42 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|162|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:57:52 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:57:52 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 127
+Oct  8 14:57:52 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|127|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:58:01 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:58:01 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 127 written 0
+Oct  8 14:58:01 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|127|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:58:14 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:58:14 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 82
+Oct  8 14:58:14 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|82|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:58:22 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 15652
+Oct  8 14:58:22 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 14:58:25 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:58:25 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 82 written 0
+Oct  8 14:58:25 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|82|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:58:26 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 15650
+Oct  8 14:58:26 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 14:58:30 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:58:30 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 83
+Oct  8 14:58:30 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|83|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:58:36 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 14:58:36 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 83 written 0
+Oct  8 14:58:36 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|83|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:59:01 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 14:59:01 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 82
+Oct  8 14:59:01 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|82|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 14:59:25 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 14:59:25 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 529 written 0
+Oct  8 14:59:25 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|529|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 15:00:04 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:00:04 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 595
+Oct  8 15:00:04 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|595|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 15:00:10 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:00:10 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 82 written 0
+Oct  8 15:00:10 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|82|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:00:17 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:00:17 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 81
+Oct  8 15:00:17 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|81|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:00:23 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:00:23 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 81 written 0
+Oct  8 15:00:23 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|81|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:00:55 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:00:55 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 37
+Oct  8 15:00:55 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|37|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:01:06 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:01:06 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 37 written 0
+Oct  8 15:01:06 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|37|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:01:18 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:01:18 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 37
+Oct  8 15:01:18 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|37|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:01:23 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:01:23 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 37 written 0
+Oct  8 15:01:23 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|37|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:01:27 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:01:27 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 36
+Oct  8 15:01:27 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|36|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:01:33 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:01:33 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 36 written 0
+Oct  8 15:01:33 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|36|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:01:48 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:01:48 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 58
+Oct  8 15:01:48 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|58|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:01:54 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:01:54 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 58 written 0
+Oct  8 15:01:54 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|58|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:02:04 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:02:04 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 57
+Oct  8 15:02:04 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|57|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:02:08 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:02:08 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 57 written 0
+Oct  8 15:02:08 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|57|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:02:14 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:02:14 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 36
+Oct  8 15:02:14 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|36|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:02:21 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:02:21 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 36 written 0
+Oct  8 15:02:21 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|36|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:02:30 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:02:30 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 52
+Oct  8 15:02:30 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|52|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:02:37 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:02:37 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 52 written 0
+Oct  8 15:02:37 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|52|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:02:54 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:02:54 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 87
+Oct  8 15:02:54 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|87|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:03:05 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:03:05 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 87 written 0
+Oct  8 15:03:05 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|87|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:03:26 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:03:26 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 95
+Oct  8 15:03:26 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|95|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:03:32 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:03:32 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 95 written 0
+Oct  8 15:03:32 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|95|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:03:39 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:03:39 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 100
+Oct  8 15:03:39 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|100|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:03:47 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:03:47 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 100 written 0
+Oct  8 15:03:47 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|100|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:04:14 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:04:14 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 137
+Oct  8 15:04:14 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|137|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:04:21 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:04:21 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 137 written 0
+Oct  8 15:04:21 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|137|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:04:34 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:04:34 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 157
+Oct  8 15:04:34 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|157|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:04:44 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:04:44 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 157 written 0
+Oct  8 15:04:44 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|157|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:05:00 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:05:00 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 179
+Oct  8 15:05:00 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|179|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:15:06 10.71.57.0 tmp106096334-1509 Connection from 10.71.57.0 port 59772 on 82.165.88.113 port 22
+Oct  8 15:15:06 10.71.57.0 tmp106096334-1509 Accepted password for tmp106096334-1509 from 10.71.57.0 port 59772 ssh2
+Oct  8 15:15:06 10.71.57.0 tmp106096334-1509 Starting session: subsystem 'sftp' for tmp106096334-1509 from 10.71.57.0 port 59772 id 0
+Oct  8 15:15:06 10.71.57.0 tmp106096334-1509 session opened for local user tmp106096334-1509 from [10.71.57.0]
+Oct  8 15:15:24 10.71.57.0 tmp106096334-1509 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:15:24 10.71.57.0 tmp106096334-1509 close "/styles/404.css" bytes read 179 written 0
+Oct  8 15:15:24 10.71.57.0 tmp106096334-1509 [10.71.57.0|get|0|179|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:15:26 10.71.57.0 tmp106096334-9185 Connection from 10.71.57.0 port 39878 on 82.165.88.113 port 22
+Oct  8 15:15:26 10.71.57.0 tmp106096334-9185 Accepted password for tmp106096334-9185 from 10.71.57.0 port 39878 ssh2
+Oct  8 15:16:43 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:16:43 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 179 written 0
+Oct  8 15:16:43 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|179|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:16:54 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags READ mode 0666
+Oct  8 15:16:54 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 595 written 0
+Oct  8 15:16:54 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|595|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 15:17:00 10.71.57.0 tmp106096334-1647 open "/error_404.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:17:00 10.71.57.0 tmp106096334-1647 close "/error_404.php" bytes read 0 written 594
+Oct  8 15:17:00 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|594|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 15:17:13 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:17:13 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 179 written 0
+Oct  8 15:17:13 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|179|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:17:51 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:17:51 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 223
+Oct  8 15:17:51 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:18:01 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:18:01 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 223 written 0
+Oct  8 15:18:01 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:18:09 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:18:09 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 223
+Oct  8 15:18:09 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:18:20 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:18:20 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 223 written 0
+Oct  8 15:18:20 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:18:29 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:18:29 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 222
+Oct  8 15:18:29 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|222|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:18:36 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:18:36 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 222 written 0
+Oct  8 15:18:36 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|222|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:18:45 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:18:45 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 215
+Oct  8 15:18:45 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|215|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:18:52 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:18:52 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 215 written 0
+Oct  8 15:18:52 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|215|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:18:59 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:18:59 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 223
+Oct  8 15:18:59 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:19:06 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:19:06 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 223 written 0
+Oct  8 15:19:06 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:19:12 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:19:12 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 223
+Oct  8 15:19:12 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:19:28 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:19:28 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 223 written 0
+Oct  8 15:19:28 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:19:34 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:19:34 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 223
+Oct  8 15:19:34 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:19:42 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:19:42 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 223 written 0
+Oct  8 15:19:42 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|223|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:20:10 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:20:10 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 346
+Oct  8 15:20:10 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|346|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:20:14 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:20:14 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 346 written 0
+Oct  8 15:20:14 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|346|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:20:35 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:20:35 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 304
+Oct  8 15:20:35 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|304|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:20:46 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:20:46 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 304 written 0
+Oct  8 15:20:46 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|304|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:21:02 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:21:02 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 267
+Oct  8 15:21:02 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|267|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:21:16 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:21:16 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 267 written 0
+Oct  8 15:21:16 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|267|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:21:36 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:21:36 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 308
+Oct  8 15:21:36 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|308|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:21:43 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:21:43 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 308 written 0
+Oct  8 15:21:43 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|308|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:21:50 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:21:50 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 308
+Oct  8 15:21:50 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|308|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:22:00 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:22:00 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 308 written 0
+Oct  8 15:22:00 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|308|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:22:06 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:22:06 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 295
+Oct  8 15:22:06 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|295|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:22:13 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:22:13 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 295 written 0
+Oct  8 15:22:13 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|295|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:22:23 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:22:23 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 310
+Oct  8 15:22:23 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|310|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:22:29 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:22:29 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 310 written 0
+Oct  8 15:22:29 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|310|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:22:41 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:22:41 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 309
+Oct  8 15:22:41 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|309|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:22:48 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:22:48 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 309 written 0
+Oct  8 15:22:48 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|309|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:22:54 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:22:54 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 309
+Oct  8 15:22:54 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|309|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:23:01 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:23:01 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 309 written 0
+Oct  8 15:23:01 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|309|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:23:06 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:23:06 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 310
+Oct  8 15:23:06 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|310|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:23:13 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:23:13 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 310 written 0
+Oct  8 15:23:13 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|310|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:23:29 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:23:29 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 336
+Oct  8 15:23:29 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|336|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:23:35 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:23:35 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 336 written 0
+Oct  8 15:23:35 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|336|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:23:41 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:23:41 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 310
+Oct  8 15:23:41 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|310|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:23:47 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:23:47 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 310 written 0
+Oct  8 15:23:47 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|310|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:24:02 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:24:02 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 335
+Oct  8 15:24:02 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|335|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:24:08 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:24:08 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 335 written 0
+Oct  8 15:24:08 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|335|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:24:30 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:24:30 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 338
+Oct  8 15:24:30 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|338|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:24:41 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:24:41 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 338 written 0
+Oct  8 15:24:41 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|338|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:24:48 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:24:48 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 338
+Oct  8 15:24:48 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|338|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:24:55 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:24:55 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 338 written 0
+Oct  8 15:24:55 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|338|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:25:06 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:25:06 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 310
+Oct  8 15:25:06 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|310|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:25:14 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:25:14 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 310 written 0
+Oct  8 15:25:14 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|310|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:26:21 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:26:21 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 352
+Oct  8 15:26:21 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|352|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:26:28 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:26:28 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 352 written 0
+Oct  8 15:26:28 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|352|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:27:00 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:27:00 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 331
+Oct  8 15:27:00 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|331|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:27:06 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags READ mode 0666
+Oct  8 15:27:06 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 331 written 0
+Oct  8 15:27:06 10.71.57.0 tmp106096334-1647 [10.71.57.0|get|0|331|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:27:10 10.71.57.0 tmp106096334-1647 open "/styles/404.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct  8 15:27:10 10.71.57.0 tmp106096334-1647 close "/styles/404.css" bytes read 0 written 331
+Oct  8 15:27:10 10.71.57.0 tmp106096334-1647 [10.71.57.0|put|0|331|0|0|0|2f7374796c65732f3430342e637373|]
+Oct  8 15:30:51 10.71.56.0 u106096334 Connection from 10.71.56.0 port 26494 on 82.165.88.113 port 22
+Oct  8 15:30:51 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 26494 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 15:30:51 10.71.56.0 u106096334 Connection from 10.71.56.0 port 26488 on 82.165.88.113 port 22
+Oct  8 15:30:51 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 26488 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 15:30:51 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 26488 ssh2
+Oct  8 15:30:51 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 26494 ssh2
+Oct  8 15:30:51 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 26494 id 0
+Oct  8 15:30:51 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 26488 id 0
+Oct  8 15:30:51 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 15:30:51 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 15:30:52 10.71.56.0 u106096334 open "/.htaccess" flags READ mode 0666
+Oct  8 15:30:52 10.71.56.0 u106096334 close "/.htaccess" bytes read 167 written 0
+Oct  8 15:30:52 10.71.56.0 u106096334 [10.71.56.0|get|0|167|0|0|0|2f2e6874616363657373|]
+Oct  8 15:30:52 10.71.56.0 u106096334 open "/error_404.php" flags READ mode 0666
+Oct  8 15:30:52 10.71.56.0 u106096334 close "/error_404.php" bytes read 594 written 0
+Oct  8 15:30:52 10.71.56.0 u106096334 [10.71.56.0|get|0|594|0|0|0|2f6572726f725f3430342e706870|]
+Oct  8 15:30:53 10.71.56.0 u106096334 sent status No such file
+Oct  8 15:30:55 10.71.56.0 u106096334 open "/index.php" flags READ mode 0666
+Oct  8 15:30:55 10.71.56.0 u106096334 open "/bio.php" flags READ mode 0666
+Oct  8 15:30:55 10.71.56.0 u106096334 close "/index.php" bytes read 1642 written 0
+Oct  8 15:30:55 10.71.56.0 u106096334 [10.71.56.0|get|0|1642|0|0|0|2f696e6465782e706870|]
+Oct  8 15:30:56 10.71.56.0 u106096334 open "/poem.php" flags READ mode 0666
+Oct  8 15:30:56 10.71.56.0 u106096334 close "/bio.php" bytes read 4654 written 0
+Oct  8 15:30:56 10.71.56.0 u106096334 [10.71.56.0|get|1|4654|0|0|0|2f62696f2e706870|]
+Oct  8 15:30:56 10.71.56.0 u106096334 close "/poem.php" bytes read 2453 written 0
+Oct  8 15:30:56 10.71.56.0 u106096334 [10.71.56.0|get|0|2453|0|0|0|2f706f656d2e706870|]
+Oct  8 15:30:56 10.71.56.0 u106096334 open "/poems.php" flags READ mode 0666
+Oct  8 15:30:56 10.71.56.0 u106096334 open "/script.js" flags READ mode 0666
+Oct  8 15:30:57 10.71.56.0 u106096334 close "/script.js" bytes read 774 written 0
+Oct  8 15:30:57 10.71.56.0 u106096334 [10.71.56.0|get|1|774|0|0|0|2f7363726970742e6a73|]
+Oct  8 15:30:57 10.71.56.0 u106096334 close "/poems.php" bytes read 1360 written 0
+Oct  8 15:30:57 10.71.56.0 u106096334 [10.71.56.0|get|1|1360|0|0|0|2f706f656d732e706870|]
+Oct  8 15:30:57 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 26494
+Oct  8 15:30:57 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 15:30:57 10.71.56.0 u106096334 open "/thanks.php" flags READ mode 0666
+Oct  8 15:30:57 10.71.56.0 u106096334 close "/thanks.php" bytes read 4014 written 0
+Oct  8 15:30:57 10.71.56.0 u106096334 [10.71.56.0|get|0|4014|0|0|0|2f7468616e6b732e706870|]
+Oct  8 15:30:57 10.71.56.0 u106096334 Connection closed by 10.71.56.0 port 26488
+Oct  8 15:30:57 10.71.56.0 u106096334 session closed for local user u106096334 from [10.71.56.0]
+Oct  8 15:30:57 10.71.56.0 u106096334 Connection from 10.71.56.0 port 35240 on 82.165.88.113 port 22
+Oct  8 15:30:58 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 35240 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 15:30:58 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 35240 ssh2
+Oct  8 15:30:58 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 35240 id 0
+Oct  8 15:30:58 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 15:30:58 10.71.56.0 u106096334 Connection from 10.71.56.0 port 36524 on 82.165.88.113 port 22
+Oct  8 15:30:58 10.71.56.0 u106096334 Failed publickey for u106096334 from 10.71.56.0 port 36524 ssh2: ED25519 SHA256:WzaAoUFV7p3BU7SRe5oDaJfR1cpI2bSWb7Rpb3wLIjQ
+Oct  8 15:30:58 10.71.56.0 u106096334 Accepted password for u106096334 from 10.71.56.0 port 36524 ssh2
+Oct  8 15:30:59 10.71.56.0 u106096334 Starting session: subsystem 'sftp' for u106096334 from 10.71.56.0 port 36524 id 0
+Oct  8 15:30:59 10.71.56.0 u106096334 open "/assets/header.php" flags READ mode 0666
+Oct  8 15:30:59 10.71.56.0 u106096334 session opened for local user u106096334 from [10.71.56.0]
+Oct  8 15:30:59 10.71.56.0 u106096334 close "/assets/header.php" bytes read 1468 written 0
+Oct  8 15:30:59 10.71.56.0 u106096334 [10.71.56.0|get|0|1468|0|0|0|2f6173736574732f6865616465722e706870|]
+Oct  8 15:30:59 10.71.56.0 u106096334 open "/assets/footer.php" flags READ mode 0666
+Oct  8 15:30:59 10.71.56.0 u106096334 open "/assets/class/StoreData.php" flags READ mode 0666
+Oct  8 15:30:59 10.71.56.0 u106096334 close "/assets/class/StoreData.php" bytes read 507 written 0
+Oct  8 15:30:59 10.71.56.0 u106096334 [10.71.56.0|get|0|507|0|0|0|2f6173736574732f636c6173732f53746f7265446174612e706870|]
+Oct  8 15:30:59 10.71.56.0 u106096334 close "/assets/footer.php" bytes read 198 written 0
+Oct  8 15:30:59 10.71.56.0 u106096334 [10.71.56.0|get|0|198|0|0|0|2f6173736574732f666f6f7465722e706870|]
+Oct  8 15:31:00 10.71.56.0 u106096334 open "/assets/class/SelectPoem.php" flags READ mode 0666
+Oct  8 15:31:00 10.71.56.0 u106096334 close "/assets/class/SelectPoem.php" bytes read 609 written 0
+Oct  8 15:31:00 10.71.56.0 u106096334 [10.71.56.0|get|0|609|0|0|0|2f6173736574732f636c6173732f53656c656374506f656d2e706870|]
+Oct  8 15:31:00 10.71.56.0 u106096334 open "/assets/class/Query.php" flags READ mode 0666
+Oct  8 15:31:00 10.71.56.0 u106096334 close "/assets/class/Query.php" bytes read 518 written 0
+Oct  8 15:31:00 10.71.56.0 u106096334 [10.71.56.0|get|0|518|0|0|0|2f6173736574732f636c6173732f51756572792e706870|]
+Oct  8 15:31:00 10.71.56.0 u106096334 open "/functions/evaluatePoem.js" flags READ mode 0666
+Oct  8 15:31:00 10.71.56.0 u106096334 open "/functions/injectPoem.js" flags READ mode 0666
+Oct  8 15:31:01 10.71.56.0 u106096334 close "/functions/evaluatePoem.js" bytes read 480 written 0
+Oct  8 15:31:01 10.71.56.0 u106096334 [10.71.56.0|get|1|480|0|0|0|2f66756e6374696f6e732f6576616c75617465506f656d2e6a73|]
+Oct  8 15:31:01 10.71.56.0 u106096334 close "/functions/injectPoem.js" bytes read 277 written 0
+Oct  8 15:31:01 10.71.56.0 u106096334 [10.71.56.0|get|1|277|0|0|0|2f66756e6374696f6e732f696e6a656374506f656d2e6a73|]
+Oct  8 15:31:01 10.71.56.0 u106096334 open "/functions/getPoem.js" flags READ mode 0666
+Oct  8 15:31:01 10.71.56.0 u106096334 open "/functions/getPoemsKey.js" flags READ mode 0666
+Oct  8 15:31:01 10.71.56.0 u106096334 close "/functions/getPoem.js" bytes read 322 written 0
+Oct  8 15:31:01 10.71.56.0 u106096334 [10.71.56.0|get|0|322|0|0|0|2f66756e6374696f6e732f676574506f656d2e6a73|]
+Oct  8 15:31:01 10.71.56.0 u106096334 close "/functions/getPoemsKey.js" bytes read 6394 written 0
+Oct  8 15:31:01 10.71.56.0 u106096334 [10.71.56.0|get|0|6394|0|0|0|2f66756e6374696f6e732f676574506f656d734b65792e6a73|]
+Oct  8 15:31:02 10.71.56.0 u106096334 open "/logs/access.log.40.5" flags READ mode 0666
+Oct  8 15:31:02 10.71.56.0 u106096334 open "/logs/access.log.40.4.gz" flags READ mode 0666
+Oct  8 15:31:02 10.71.56.0 u106096334 close "/logs/access.log.40.4.gz" bytes read 9224 written 0
+Oct  8 15:31:02 10.71.56.0 u106096334 [10.71.56.0|get|0|9224|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e342e677a|]
+Oct  8 15:31:03 10.71.56.0 u106096334 open "/logs/last_traffic" flags READ mode 0666
+Oct  8 15:31:03 10.71.56.0 u106096334 close "/logs/access.log.40.5" bytes read 359367 written 0
+Oct  8 15:31:03 10.71.56.0 u106096334 [10.71.56.0|get|1|359367|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e35|]
+Oct  8 15:31:03 10.71.56.0 u106096334 open "/logs/traffic.db" flags READ mode 0666
+Oct  8 15:31:03 10.71.56.0 u106096334 close "/logs/traffic.db" bytes read 12288 written 0
+Oct  8 15:31:03 10.71.56.0 u106096334 [10.71.56.0|get|0|12288|0|0|0|2f6c6f67732f747261666669632e6462|]
+Oct  8 15:31:04 10.71.56.0 u106096334 open "/logs/sftp.log" flags READ mode 0666
+Oct  8 15:31:04 10.71.56.0 u106096334 close "/logs/last_traffic" bytes read 0 written 0
+Oct  8 15:31:04 10.71.56.0 u106096334 [10.71.56.0|get|1|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]

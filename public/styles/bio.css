@@ -1,0 +1,239 @@
+@media screen and (max-width: 1024px)
+{
+.form {
+    align-items: center;
+	max-width: 400px;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    background-color: #FBFBFD;
+    border-radius: 1rem;
+    box-shadow: 10px 20px 30px 5px rgba(0,0,0,0.45);
+    padding: 20px;
+}
+.confirm{
+	max-width: 400px;
+	padding: 15px ;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 30em;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.45);
+    background-color: rgb(114, 248, 114);
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+}
+.form li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form .name{
+	width: 96%;
+    height: 20px;
+}
+.form .message{
+	width: 96%;
+    height: 100px;
+}
+.form .email{
+	width: 96%;
+    height: 20px;
+}
+.form input[type=submit], .form input[type=button]{
+    padding: 8px 15px 8px 15px;
+    margin-top: 10px;
+    background: #d7e3fc;
+    border: none;
+    color: rgba(0, 0, 0, 0.959);
+}
+.form .required{
+	color:red;
+}
+#me_contacter {
+    text-align: center;
+    font-size: large;
+    margin-top: 1em;
+    font-weight: bold ;
+}
+.img_artist{
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+}
+.artist_title{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 25px;
+}
+.artist_title--bio{
+    text-align: justify;
+    margin: 1em;
+}
+.img_asso{
+        margin: 4%;
+        display: flex;
+        justify-content: center;
+}
+.artist{
+    background-color: #FBFBFD;
+    border-radius: 1rem;
+    box-shadow: 10px 20px 30px 5px rgba(0,0,0,0.45);
+    display: flex;
+    flex-direction: column;  
+    padding: 20px;
+}
+.asso{
+    text-align: justify;
+    margin-top: 5em;
+    background-color: #FBFBFD;
+    border-radius: 1rem;
+    box-shadow: 10px 20px 30px 5px rgba(0,0,0,0.45);
+    display: flex;
+    flex-direction: column;  
+    margin-top: 3em;
+    padding: 20px;
+}
+p{
+    font-size: 15px;
+}
+}
+
+@media screen and (min-width: 1024px)
+{
+.form {
+	max-width: 400px;
+	padding: 20px ;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 25px 35px 10px rgba(0,0,0,0.45);
+    margin-left: 35%;
+}
+.confirm{
+	max-width: 400px;
+	padding: 15px ;
+    height: 100px;
+    margin-top: -27em;
+    margin-left: 19em;
+    text-align: center;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 25px 35px 10px rgba(0,0,0,0.45);
+    background-color: rgb(114, 248, 114);
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+}
+.bio{
+    display: grid;
+}
+.artist{
+    margin: 2%;
+    justify-content: center;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 25px 35px 10px rgba(0,0,0,0.45);
+    padding: 20px;
+    width: 70%;
+}
+.artist_title{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+.artist_title--bio{
+    padding-top: 25px;
+    text-align: left;
+    margin: 2%;
+}
+.img_artist{
+    float: left;
+    margin-right: 2%;
+}
+.asso{
+    text-align: left;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 25px 35px 10px rgba(0,0,0,0.45);
+    padding: 20px;
+    width: 70%;
+    margin: 2%;
+    margin-left: 25%;
+}
+.who_asso--bio{
+    justify-content: center;
+    margin: 2%;
+    text-align: left;
+}
+.img_asso{
+    float: right;
+    margin-left: 2%;
+}
+
+.form li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form .name{
+    width: 98%;
+    height: 20px;
+    padding: 5px;
+}
+.form .message{
+    width: 98%;
+    height: 100px;
+    padding: 5px;
+}
+.form .email{
+    width: 98%;
+    height: 20px;
+    padding: 5px;
+}
+.form input[type=submit], .form input[type=button]{
+    padding: 8px 15px 8px 15px;
+    margin-top: 10px;
+    background: #d7e3fc;
+    border: none;
+    color: rgba(0, 0, 0, 0.959);
+    }
+.form input[type=submit]:hover, .form input[type=button]:hover{
+    padding: 8px 15px 8px 15px;
+    margin-top: 10px;
+    background: #d7e3fc;
+    border: gray solid 1px;
+    color: rgba(0, 0, 0, 0.959);
+}
+.form .required{
+    color:red;
+}
+.form select {
+    width: 50%;
+    height: 30px;
+}
+    
+#me_contacter {
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 10px;
+    font-weight: bold ;
+    }   
+}
+
+h3{
+    font-style: italic;
+    margin: 1em;
+}

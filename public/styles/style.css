@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ephesis&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    cursor: url('/pictures/Feather.cur'), auto;
+
+}
+body {
+    font-family: 'Comfortaa';
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
